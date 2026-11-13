@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 招生助手 · 东北师范大学</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f4e8c'/%3E%3Ctext x='32' y='43' font-size='30' font-family='Arial' font-weight='bold' text-anchor='middle' fill='white'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/style.css?v=20261113l">
+</head>
+<body>
+  <!-- 登录 / 注册 -->
+  <div id="auth" class="auth-screen">
+    <div class="auth-card">
+      <div class="brand">
+        <div class="logo">NENU</div>
+        <h1>AI 招生助手</h1>
+        <p>东北师范大学 · 智能招生咨询</p>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-mode="login" type="button">登录</button>
+        <button class="tab" data-mode="register" type="button">注册</button>
+      </div>
+      <form id="auth-form" novalidate>
+        <label class="field">
+          <span>用户名</span>
+          <input id="auth-username" autocomplete="username" minlength="3" maxlength="50" placeholder="3~50 位">
+        </label>
+        <label class="field">
+          <span>密码</span>
+          <input id="auth-password" type="password" autocomplete="current-password" minlength="6" maxlength="64" placeholder="6~64 位">
+        </label>
+        <p id="auth-error" class="error"></p>
+        <button type="submit" class="btn primary block" id="auth-submit">登录</button>
+      </form>
+      <p class="hint">普通用户可咨询、查询专业、向学校提问；管理员可受理提问与发布公告。</p>
+    </div>
+  </div>
+
+  <!-- 主应用 -->
+  <div id="app" class="app hidden">
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="logo small">NENU</span>
+        <span>AI 招生助手</span>
+      </div>
+      <nav id="nav" class="nav"></nav>
+      <div class="user-box">
+        <div class="user-line">
+          <strong id="who">-</strong>
+          <span id="role-badge" class="badge">-</span>
+        </div>
+        <button id="logout" class="link" type="button">退出登录</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <!-- 智能咨询 -->
+      <section id="view-chat" class="view chat-view">
+        <div class="chat-shell">
+          <header class="chat-shell-head">
+            <div class="chat-identity">
+              <span class="chat-avatar">东</span>
+              <div>
+                <h2>东师招生助手</h2>
+                <p>查分数 · 看计划 · 问政策，内容仅供填报参考</p>
+              </div>
+            </div>
+            <div class="chat-head-actions">
+              <button class="btn" type="button" id="chat-new">新对话</button>
+              <button class="btn primary" type="button" id="chat-history-toggle" aria-controls="chat-history" aria-expanded="false">历史对话</button>
+            </div>
+          </header>
+          <aside class="chat-history" id="chat-history">
+            <div class="chat-history-head">
+              <span>历史对话</span>
+            </div>
+            <input id="conv-search" class="conv-search" type="search" placeholder="搜索历史对话" aria-label="搜索历史对话" />
+            <div id="conversation-list" class="conversation-list"></div>
+          </aside>
+          <div id="chat-box" class="chat-box"></div>
+          <form id="chat-form" class="chat-form">
+            <textarea id="chat-input" rows="1" maxlength="500" placeholder="输入你的问题，Enter 发送，Shift + Enter 换行" aria-label="输入你的问题"></textarea>
+            <button class="chat-send" type="submit" id="chat-send">发送</button>
+          </form>
+          <div class="chat-meta" id="chat-meta"></div>
+        </div>
+      </section>
+
+      <!-- 专业查询 -->
+      <section id="view-majors" class="view hidden">
+        <header class="view-head">
+          <h2>专业查询</h2>
+          <p>选定年份 / 省份 / 科类后，每个专业都会显示最低分与最低位次；本省无数据时会标注参考来源。</p>
+        </header>
+        <div id="school-line" class="school-line"></div>
+        <div class="toolbar">
+          <select id="major-year" class="select-sm" aria-label="年份"></select>
+          <select id="major-province" class="select-sm" aria-label="省份"></select>
+          <select id="major-type" class="select-sm" aria-label="科类"></select>
+          <input id="major-keyword" class="search" placeholder="输入专业名称，如：数学、计算机、汉语言">
+          <button class="btn" type="button" id="major-search">搜索</button>
+        </div>
+        <div id="major-list" class="card-list"></div>
+      </section>
+
+      <!-- 我的提问 -->
+      <section id="view-questions" class="view hidden">
+        <header class="view-head">
+          <h2>向学校提问</h2>
+          <p>AI 答不了的问题可以在这里提交，招生办受理后会给出答复。</p>
+        </header>
+        <form id="question-form" class="panel form-grid">
+          <label class="field">
+            <span>问题分类</span>
+            <select id="question-category">
+              <option value="policy">招生政策</option>
+              <option value="major">专业相关</option>
+              <option value="score">分数与位次</option>
+              <option value="other">其他</option>
+            </select>
+          </label>
+          <label class="field grow">
+            <span>问题内容（10~500 字）</span>
+            <textarea id="question-content" rows="3" maxlength="500"></textarea>
+          </label>
+          <button class="btn primary" type="submit">提交提问</button>
+        </form>
+        <div id="my-question-list" class="card-list"></div>
+      </section>
+
+      <!-- 公告 -->
+      <section id="view-announcements" class="view hidden">
+        <header class="view-head">
+          <h2>招生办公告</h2>
+          <p>已发布的公告会同步进入知识库，AI 回答时优先采用。</p>
+        </header>
+        <div id="announcement-list" class="card-list"></div>
+      </section>
+
+      <!-- 计划变动 -->
+      <section id="view-plan-diff" class="view hidden">
+        <header class="view-head">
+          <h2>计划变动</h2>
+          <p>按省份对比两个年份的招生计划，查看新增专业、停招专业与计划数变化。</p>
+        </header>
+        <div class="toolbar">
+          <select id="plan-province" class="select-sm" aria-label="省份"></select>
+          <select id="plan-from-year" class="select-sm" aria-label="起始年份"></select>
+          <span class="plan-arrow">→</span>
+          <select id="plan-to-year" class="select-sm" aria-label="对比年份"></select>
+          <button class="btn primary" type="button" id="plan-diff-run">对比</button>
+        </div>
+        <div class="plan-diff">
+          <div class="panel">
+            <h3>新增专业 <span id="plan-added-count" class="card-sub"></span></h3>
+            <div id="plan-added"></div>
+          </div>
+          <div class="panel">
+            <h3>停招专业 <span id="plan-removed-count" class="card-sub"></span></h3>
+            <div id="plan-removed"></div>
+          </div>
+          <div class="panel">
+            <h3>计划数变化 <span id="plan-changed-count" class="card-sub"></span></h3>
+            <div id="plan-changed"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 个人资料 -->
+      <section id="view-profile" class="view hidden">
+        <header class="view-head">
+          <h2>个人资料</h2>
+          <p>填写省份、科类、分数与位次后，分数问答与专业推荐会优先使用这份资料。</p>
+        </header>
+        <div class="panel">
+          <div class="profile-meter">
+            <div class="profile-meter-bar"><span id="profile-meter-fill"></span></div>
+            <span id="profile-meter-text" class="card-sub">资料完整度 0%</span>
+          </div>
+          <p id="profile-missing" class="hint profile-hint"></p>
+          <form id="profile-form" class="form-grid">
+            <label class="field">
+              <span>省份</span>
+              <select id="profile-province"></select>
+            </label>
+            <label class="field">
+              <span>选科类别</span>
+              <select id="profile-subject"></select>
+              <small class="field-hint" id="profile-subject-hint"></small>
+            </label>
+            <label class="field">
+              <span>高考年份</span>
+              <input id="profile-year" type="number" min="2000" max="2100" step="1" placeholder="2026">
+            </label>
+            <label class="field">
+              <span>高考分数</span>
+              <input id="profile-score" type="number" min="1" max="750" step="1" placeholder="如 599">
+            </label>
+            <label class="field">
+              <span>位次</span>
+              <input id="profile-rank" type="number" min="1" step="1" placeholder="不知道可留空">
+            </label>
+            <label class="field">
+              <span>是否服从调剂</span>
+              <select id="profile-adjust">
+                <option value="">未填写</option>
+                <option value="1">接受调剂</option>
+                <option value="0">不接受调剂</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>专项资格</span>
+              <select id="profile-special"></select>
+            </label>
+            <label class="field">
+              <span>职业意向</span>
+              <select id="profile-career"></select>
+            </label>
+            <label class="field grow">
+              <span>意向地区（多个用逗号分隔）</span>
+              <input id="profile-regions" maxlength="200" placeholder="如 吉林,北京,辽宁">
+            </label>
+            <div class="field full">
+              <span>兴趣方向（可多选）</span>
+              <div id="profile-interests" class="chip-row"></div>
+            </div>
+            <button class="btn primary" type="submit">保存资料</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- 管理端：数据概览 -->
+      <section id="view-admin-stats" class="view hidden">
+        <header class="view-head">
+          <h2>数据概览</h2>
+          <p>咨询、提问与公告的整体运行情况。</p>
+        </header>
+        <div id="stat-cards" class="stat-grid"></div>
+        <div class="two-col">
+          <div class="panel">
+            <h3>提问分类</h3>
+            <div id="stat-categories" class="bar-list"></div>
+          </div>
+          <div class="panel">
+            <h3>咨询意图分布</h3>
+            <div id="stat-intents" class="bar-list"></div>
+          </div>
+        </div>
+        <div class="panel" style="margin-top:18px">
+          <h3>AI 模型</h3>
+          <div class="toolbar" style="margin-bottom:0">
+            <label class="field" style="margin:0">
+              <span>模型后端</span>
+              <select id="llm-provider" class="select-sm"></select>
+            </label>
+            <label class="field" style="margin:0">
+              <span>模型</span>
+              <select id="llm-model" class="select-sm"></select>
+            </label>
+            <input id="llm-new-model" class="select-sm" style="width:220px" maxlength="100" placeholder="新模型名，如 qwen2.5:7b" aria-label="新模型名称">
+            <button class="btn" type="button" id="llm-add-model">添加模型</button>
+            <button class="btn primary" type="button" id="llm-save">保存并生效</button>
+            <span id="llm-status" class="card-sub"></span>
+          </div>
+          <div class="toolbar" style="margin-top:12px;margin-bottom:0">
+            <label class="field" style="margin:0">
+              <span>后端名称</span>
+              <input id="llm-custom-name" class="select-sm" style="width:140px" maxlength="20" placeholder="如 通义千问">
+            </label>
+            <label class="field" style="margin:0">
+              <span>Base URL</span>
+              <input id="llm-custom-url" class="select-sm" style="width:300px" maxlength="200" placeholder="https://.../v1">
+            </label>
+            <label class="field" style="margin:0">
+              <span>API Key</span>
+              <input id="llm-custom-key" class="select-sm" type="password" style="width:190px" maxlength="200" placeholder="sk-...（本地服务可留空）">
+            </label>
+            <label class="field" style="margin:0">
+              <span>模型名</span>
+              <input id="llm-custom-model" class="select-sm" style="width:170px" maxlength="100" placeholder="如 qwen-plus">
+            </label>
+            <button class="btn" type="button" id="llm-add-provider">添加后端</button>
+          </div>
+          <p class="card-sub" style="margin:10px 0 0">支持任意 OpenAI 兼容接口（通义千问、Kimi、智谱、硅基流动、vLLM 等），Base URL 填到 /v1 即可。</p>
+        </div>
+      </section>
+
+      <!-- 管理端：提问受理 -->
+      <section id="view-admin-questions" class="view hidden">
+        <header class="view-head">
+          <h2>提问受理</h2>
+          <p>待处理 → 已解答 → 已关闭，状态只能单向推进。</p>
+        </header>
+        <div class="toolbar" id="question-filter">
+          <button class="chip active" data-status="" type="button">全部</button>
+          <button class="chip" data-status="pending" type="button">待处理</button>
+          <button class="chip" data-status="answered" type="button">已解答</button>
+          <button class="chip" data-status="closed" type="button">已关闭</button>
+        </div>
+        <div id="admin-question-list" class="card-list"></div>
+      </section>
+
+      <!-- 管理端：公告管理 -->
+      <section id="view-admin-announcements" class="view hidden">
+        <header class="view-head">
+          <h2>公告管理</h2>
+          <p>发布后自动回灌知识库；下架后 AI 不再引用，但历史公告仍保留。</p>
+        </header>
+        <form id="announcement-form" class="panel form-grid">
+          <input type="hidden" id="announcement-id">
+          <label class="field grow">
+            <span>公告标题</span>
+            <input id="announcement-title" maxlength="200">
+          </label>
+          <label class="field">
+            <span>分类</span>
+            <select id="announcement-category">
+              <option value="policy">招生政策</option>
+              <option value="major">专业相关</option>
+              <option value="score">分数与位次</option>
+              <option value="other">其他</option>
+            </select>
+          </label>
+          <label class="field full">
+            <span>公告正文（10~5000 字）</span>
+            <textarea id="announcement-content" rows="4" maxlength="5000"></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="btn primary" type="submit" id="announcement-submit">保存草稿</button>
+            <button class="btn" type="button" id="announcement-reset">清空</button>
+          </div>
+        </form>
+        <div id="admin-announcement-list" class="card-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- 登录公告弹窗 -->
+  <div id="announcement-modal" class="modal-mask hidden" role="dialog" aria-modal="true" aria-labelledby="announcement-modal-title">
+    <div class="modal-card">
+      <header class="modal-head">
+        <div>
+          <h3 id="announcement-modal-title">招生办公告</h3>
+          <p class="card-sub">登录后自动展示已发布的公告</p>
+        </div>
+        <button type="button" class="modal-close" id="announcement-modal-close" aria-label="关闭公告">×</button>
+      </header>
+      <div id="announcement-modal-list" class="modal-body"></div>
+      <footer class="modal-foot">
+        <button type="button" class="btn primary" id="announcement-modal-ok">我知道了</button>
+      </footer>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/static/app.js?v=20261113l"></script>
+</body>
+</html>

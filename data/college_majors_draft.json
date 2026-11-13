@@ -1,0 +1,1066 @@
+{
+  "generated_at": "2026-11-13 10:35:19",
+  "summary": {
+    "colleges": 21,
+    "ok": 20,
+    "no_page": 1,
+    "no_major": 0,
+    "majors_matched": 48,
+    "aliases_used": 20,
+    "skipped": 1
+  },
+  "aliases": {
+    "教育学": [
+      "教育学类"
+    ],
+    "行政管理": [
+      "政治学类"
+    ],
+    "国际政治": [
+      "政治学类"
+    ],
+    "生物技术": [
+      "生物科学类"
+    ],
+    "环境科学": [
+      "环境科学与工程类"
+    ],
+    "环境工程": [
+      "环境科学与工程类"
+    ],
+    "生态学": [
+      "环境科学与工程类"
+    ],
+    "人文地理与城乡规划": [
+      "地理科学类"
+    ],
+    "地理信息科学": [
+      "地理科学类"
+    ],
+    "新闻学": [
+      "新闻传播学类"
+    ],
+    "广告学": [
+      "新闻传播学类"
+    ],
+    "人工智能": [
+      "计算机类"
+    ],
+    "数据科学与大数据技术": [
+      "计算机类"
+    ],
+    "人工智能教育": [
+      "计算机类"
+    ],
+    "计算机科学与技术": [
+      "计算机类",
+      "计算机科学与技术(中外合作办学)"
+    ]
+  },
+  "college_aliases": {
+    "经济与管理学院": {
+      "经济学": [
+        "经济学类"
+      ],
+      "金融学": [
+        "经济学类"
+      ],
+      "会计学": [
+        "经济学类"
+      ],
+      "市场营销": [
+        "经济学类"
+      ],
+      "人力资源管理": [
+        "经济学类"
+      ]
+    }
+  },
+  "exclude": {
+    "国际汉学院（海外教育学院）": [
+      "汉语言文学"
+    ]
+  },
+  "manual": {
+    "美术学": "美术学院",
+    "美术学(师范)": "美术学院",
+    "设计学类": "美术学院",
+    "雕塑": "美术学院",
+    "数学类": "数学与统计学院",
+    "物理学类": "物理学院",
+    "马克思主义理论类": "马克思主义学部",
+    "会计学(中外合作办学)": "经济与管理学院",
+    "经济学(统计学双学位)": "经济与管理学院"
+  },
+  "conflicts": {
+    "思想政治教育(公费师范)": [
+      "政法学院",
+      "马克思主义学部"
+    ],
+    "思想政治教育(优师专项)": [
+      "政法学院",
+      "马克思主义学部"
+    ],
+    "思想政治教育(仿吾试验班)": [
+      "政法学院",
+      "马克思主义学部"
+    ]
+  },
+  "colleges": [
+    {
+      "college": "教育学部",
+      "url": "http://edu.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "教育学类",
+          "records": [
+            "教育学类",
+            "教育学类"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学部设有教育学类、学前教育（公费师范）、小学教育（公费师范） 3 个本科招生专业"
+        },
+        {
+          "major": "小学教育",
+          "records": [
+            "小学教育(公费师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学部设有教育学类、学前教育（公费师范）、小学教育（公费师范） 3 个本科招生专业"
+        },
+        {
+          "major": "学前教育",
+          "records": [
+            "学前教育(公费师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学部设有教育学类、学前教育（公费师范）、小学教育（公费师范） 3 个本科招生专业"
+        },
+        {
+          "major": "教育学",
+          "records": [
+            "教育学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "学生入学一年后进行专业选择，包括教育学、学前教育、小学教育 3 个专业，各专业均实行本硕一体化培养，学习成绩优秀者可直接推荐免试攻读硕士学位研究生"
+        }
+      ],
+      "candidates": [
+        "教育部高等学校教学指导委员会",
+        "全国教育"
+      ],
+      "pages": [
+        {
+          "title": "本科招生",
+          "url": "http://edu.nenu.edu.cn/rcpy/bksjy1/bkzs.htm"
+        },
+        {
+          "title": "学部概况",
+          "url": "http://edu.nenu.edu.cn/xbgk/xbjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "心理学院",
+      "url": "http://psy.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "心理学",
+          "records": [
+            "心理学",
+            "心理学(公费师范)",
+            "心理学(公费师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": " 1980 年 心理学专业 正式获批为本科招生专业， 1981 年第一批获批建立硕士学位授权点， 1994 年设立心理学系， 2003 年获批发展与教育心理学博士点， 2011 年获批心理学一级学科博士点， 2014 年获批心理学博士后科研流动站， 2017 年设为独立建制的学院"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "本科生教育",
+          "url": "http://psy.nenu.edu.cn/rcpy/bksjy.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://psy.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://psy.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "政法学院",
+      "url": "http://zf.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "政治学与行政学",
+          "records": [
+            "政治学与行政学",
+            "政治学与行政学(数据科学与大数据技术双学位)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院设有思想政治教育（公费师范）、法学、政治学与行政学、行政管理、国际政治 5 个本科专业，以及涉外法治微专业"
+        },
+        {
+          "major": "思想政治教育",
+          "records": [
+            "思想政治教育(公费师范)",
+            "思想政治教育(优师专项)",
+            "思想政治教育(仿吾试验班)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院设有思想政治教育（公费师范）、法学、政治学与行政学、行政管理、国际政治 5 个本科专业，以及涉外法治微专业"
+        },
+        {
+          "major": "行政管理",
+          "records": [
+            "政治学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "学院设有思想政治教育（公费师范）、法学、政治学与行政学、行政管理、国际政治 5 个本科专业，以及涉外法治微专业"
+        },
+        {
+          "major": "国际政治",
+          "records": [
+            "政治学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "学院设有思想政治教育（公费师范）、法学、政治学与行政学、行政管理、国际政治 5 个本科专业，以及涉外法治微专业"
+        },
+        {
+          "major": "法学",
+          "records": [
+            "法学"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院设有思想政治教育（公费师范）、法学、政治学与行政学、行政管理、国际政治 5 个本科专业，以及涉外法治微专业"
+        }
+      ],
+      "candidates": [
+        "涉外法治微"
+      ],
+      "pages": [
+        {
+          "title": "本科生教育",
+          "url": "http://zf.nenu.edu.cn/jyjx/bksjy.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://zf.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://zf.nenu.edu.cn/xxgk1/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "经济与管理学院",
+      "url": "http://bs.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "人力资源管理",
+          "records": [
+            "经济学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有人力资源管理、市场营销、 金融学、经济学、会计学5个本科专业 ，其中会计学专业设有教育部批准的与美国南伊利 诺伊大学合作的中美合作办学项目"
+        },
+        {
+          "major": "市场营销",
+          "records": [
+            "经济学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有人力资源管理、市场营销、 金融学、经济学、会计学5个本科专业 ，其中会计学专业设有教育部批准的与美国南伊利 诺伊大学合作的中美合作办学项目"
+        },
+        {
+          "major": "会计学",
+          "records": [
+            "经济学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有人力资源管理、市场营销、 金融学、经济学、会计学5个本科专业 ，其中会计学专业设有教育部批准的与美国南伊利 诺伊大学合作的中美合作办学项目"
+        },
+        {
+          "major": "金融学",
+          "records": [
+            "经济学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有人力资源管理、市场营销、 金融学、经济学、会计学5个本科专业 ，其中会计学专业设有教育部批准的与美国南伊利 诺伊大学合作的中美合作办学项目"
+        },
+        {
+          "major": "经济学",
+          "records": [
+            "经济学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有人力资源管理、市场营销、 金融学、经济学、会计学5个本科专业 ，其中会计学专业设有教育部批准的与美国南伊利 诺伊大学合作的中美合作办学项目"
+        }
+      ],
+      "candidates": [
+        "中美会计",
+        "企业管理系",
+        "经济学四个系",
+        "开设人力资源管理",
+        "工商管理",
+        "应用经济学",
+        "理论经济学三个一级学科硕士点",
+        "拥有工商管理硕士",
+        "会计硕士",
+        "金融硕士"
+      ],
+      "pages": [
+        {
+          "title": "所有普通本科专业招生",
+          "url": "http://bs.nenu.edu.cn/zsgz/bkszs/syptbkzyzs1.htm"
+        },
+        {
+          "title": "中美合作会计本科专业招生",
+          "url": "http://bs.nenu.edu.cn/zsgz/bkszs/zmhzhjbkzyzs1.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://bs.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "文学院",
+      "url": "http://chinese.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "汉语言文学",
+          "records": [
+            "汉语言文学",
+            "汉语言文学(公费师范)",
+            "汉语言文学(优师专项)",
+            "汉语言文学(文昌试验班)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "文学院自1948年开始招收培养本科生，设有汉语言文学本科专业，分为公费师范类和非公费师范类（普通类）两类招生"
+        }
+      ],
+      "candidates": [
+        "中国语言文学系",
+        "古籍整理研究所三个单位"
+      ],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://chinese.nenu.edu.cn/bksjy/zysz.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://chinese.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "历史文化学院",
+      "url": "http://sohac.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "历史学",
+          "records": [
+            "历史学(公费师范)",
+            "历史学",
+            "历史学(日知试验班)",
+            "历史学(优师专项)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "历史文化学院自1948年开始招生，现设有历史学、旅游管理2个本科专业，其中历史学专业分为公费师范类和非公费师范类（普通类）两类招生"
+        }
+      ],
+      "candidates": [
+        "旅游管理",
+        "旅游"
+      ],
+      "pages": [
+        {
+          "title": ">本科专业",
+          "url": "http://sohac.nenu.edu.cn/xkjs/bkzy.htm"
+        },
+        {
+          "title": ">学院简介",
+          "url": "http://sohac.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "外国语学院",
+      "url": "http://wy.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "俄语",
+          "records": [
+            "俄语"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "1948年开始招收俄语语言文学专业本科生"
+        },
+        {
+          "major": "英语",
+          "records": [
+            "英语(公费师范)",
+            "英语(中外合作办学)",
+            "英语",
+            "英语(优师专项)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "1960年创办英语语言文学专业并开始招生"
+        },
+        {
+          "major": "日语",
+          "records": [
+            "日语"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "1974年创办日语语言文学专业并开始招生"
+        },
+        {
+          "major": "商务英语",
+          "records": [
+            "商务英语"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "2001年开始招收英语（电子商务）方向本科生，2004年创办英语（科技交流）中外合作办学项目，2011年获批商务英语专业并招生"
+        },
+        {
+          "major": "德语",
+          "records": [
+            "德语"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "2022年创办德语专业并开始招生"
+        }
+      ],
+      "candidates": [
+        "英语方向",
+        "中国基础外语教育研究中心",
+        "英语语言史研究中心"
+      ],
+      "pages": [
+        {
+          "title": "·&nbsp;学院简介",
+          "url": "http://wy.nenu.edu.cn/info/1006/7646.htm"
+        }
+      ]
+    },
+    {
+      "college": "音乐与舞蹈学院",
+      "url": "http://music.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "舞蹈编导",
+          "records": [
+            "舞蹈编导"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院现有音乐、舞蹈两个专业学位博士点，下设音乐教育、舞蹈教育、舞蹈编导、舞蹈表演4个研究方向"
+        },
+        {
+          "major": "音乐学",
+          "records": [
+            "音乐学(器乐)",
+            "音乐学(声乐,师范)",
+            "音乐学(钢琴,师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "设有音乐学、舞蹈编导 2个本科专业，另外，学院与美术学院、传媒科学学院共建艺术学博士点"
+        }
+      ],
+      "candidates": [
+        "包括室内乐",
+        "合唱",
+        "民乐",
+        "管弦乐排练室",
+        "声乐综合实践厅",
+        "MIDI 录音教室",
+        "流行音乐演绎教室",
+        "多声道音乐实验室",
+        "双钢琴",
+        "现代乐器",
+        "电声乐器演奏教室",
+        "电脑音乐教室"
+      ],
+      "pages": [
+        {
+          "title": "本科生教育",
+          "url": "http://music.nenu.edu.cn/bksjy.htm"
+        },
+        {
+          "title": "学院简介 >",
+          "url": "http://music.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "美术学院",
+      "url": "http://fineart.nenu.edu.cn/",
+      "status": "no_page",
+      "matched": [],
+      "candidates": [],
+      "pages": []
+    },
+    {
+      "college": "马克思主义学部",
+      "url": "http://marxism.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "思想政治教育",
+          "records": [
+            "思想政治教育(公费师范)",
+            "思想政治教育(优师专项)",
+            "思想政治教育(仿吾试验班)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "1988年教育部颁布新本科专业目录时，将政治教育专业与新设置的思想政治教育专业统一更名为思想政治教育专业，此后思想政治教育专业成为我校重要的基础性专业之一"
+        }
+      ],
+      "candidates": [
+        "社会工作",
+        "基础上",
+        "进一步加强学科建设",
+        "提高学术研究水平",
+        "人才培养质量",
+        "不断提升社会学与社会工作的",
+        "哲学类课程",
+        "编写过全国性的哲学",
+        "不断提升哲学"
+      ],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://marxism.nenu.edu.cn/bksjy/zysz.htm"
+        },
+        {
+          "title": "学部概况",
+          "url": "http://marxism.nenu.edu.cn/xbgk/xbjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "数学与统计学院",
+      "url": "http://math.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "统计学",
+          "records": [
+            "统计学(数智试验班)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": " 2002 年增设 “ 统计学 ” 本科专业 , 2017 年 “ 统计学 ” 和 “ 数学 ” 被遴选认定为国家 “ 双一流 ” 建设学科"
+        },
+        {
+          "major": "数学与应用数学",
+          "records": [
+            "数学与应用数学(公费师范)",
+            "数学与应用数学(陆家羲试验班)",
+            "数学与应用数学(优师专项)",
+            "数学与应用数学"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院现有数学与应用数学、统计学两个本科专业，其中数学与应用数学专业被教育部批准为 2007 年度 “ 第一批高等学校师范类特色专业建设点 ” "
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://math.nenu.edu.cn/bksjy/zysz.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://math.nenu.edu.cn/index/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "信息科学与技术学院",
+      "url": "http://ist.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "数据科学与大数据技术",
+          "records": [
+            "计算机类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "本科专业设置：计算机科学与技术（含中外合作办学）、教育技术学（智能教育）、人工智能、数据科学与大数据技术、人工智能教育5个本科专业"
+        },
+        {
+          "major": "计算机科学与技术",
+          "records": [
+            "计算机类",
+            "计算机科学与技术(中外合作办学)"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "本科专业设置：计算机科学与技术（含中外合作办学）、教育技术学（智能教育）、人工智能、数据科学与大数据技术、人工智能教育5个本科专业"
+        },
+        {
+          "major": "人工智能教育",
+          "records": [
+            "计算机类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "本科专业设置：计算机科学与技术（含中外合作办学）、教育技术学（智能教育）、人工智能、数据科学与大数据技术、人工智能教育5个本科专业"
+        },
+        {
+          "major": "教育技术学",
+          "records": [
+            "教育技术学(智能教育,公费师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "本科专业设置：计算机科学与技术（含中外合作办学）、教育技术学（智能教育）、人工智能、数据科学与大数据技术、人工智能教育5个本科专业"
+        },
+        {
+          "major": "人工智能",
+          "records": [
+            "计算机类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "本科专业设置：计算机科学与技术（含中外合作办学）、教育技术学（智能教育）、人工智能、数据科学与大数据技术、人工智能教育5个本科专业"
+        }
+      ],
+      "candidates": [
+        "相关的"
+      ],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://ist.nenu.edu.cn/bksjy/zysz.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://ist.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "物理学院",
+      "url": "http://www.phy.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "物理学",
+          "records": [
+            "物理学(公费师范)",
+            "物理学(陆家羲试验班)",
+            "物理学(优师专项)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院现有3个本科专业（物理学、电子信息科学与技术、材料物理），2个博士学位授权一级学科点（物理学、材料科学与工程），1个硕士学位授权一级学科点（控制科学与工程），1个硕士学位授权二级学科点（课程与教学论），2个硕士专业学位授权点（学科教学（物理）、电子信息），设有物理学、材料科学与工程学科博士后科研流动站"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "本科生",
+          "url": "http://www.phy.nenu.edu.cn/rcpy/bks.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://www.phy.nenu.edu.cn/rcpy/xkgk.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://www.phy.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "化学学院",
+      "url": "http://chem.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "化学",
+          "records": [
+            "化学",
+            "化学(郑汝骊试验班)",
+            "化学(公费师范)",
+            "化学(优师专项)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "经过几十年的努力奋斗，学科建设有了长足进步，获吉林省十二五特色专业、第一批吉林省高等学校本科品牌专业、 吉林省高校重中之重立项建设学科，已成为我国培养高水平化学教师和科研人才的重要基地"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "本科生",
+          "url": "http://chem.nenu.edu.cn/rcpy/bks.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://chem.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://chem.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "生命科学学院",
+      "url": "http://sky.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "生物科学",
+          "records": [
+            "生物科学(公费师范)",
+            "生物科学(郝水试验班)",
+            "生物科学(优师专项)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "生物科学和生物技术两个本科专业均获批国家级一流本科专业建设点"
+        },
+        {
+          "major": "生物技术",
+          "records": [
+            "生物科学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "生物科学和生物技术两个本科专业均获批国家级一流本科专业建设点"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "本科生培养",
+          "url": "http://sky.nenu.edu.cn/bkspy.htm"
+        },
+        {
+          "title": "本科生",
+          "url": "http://sky.nenu.edu.cn/index/xygg1/bks.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://sky.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "地理科学学院",
+      "url": "http://geo.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "人文地理与城乡规划",
+          "records": [
+            "地理科学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "学院设有地理科学（公费师范）、地理科学（普通类）、人文地理与城乡规划、地理信息科学四个本科专业，其中地理科学专业为国家级特色专业和吉林省高等学校本科品牌专业建设点，人文地理与城乡规划专业为吉林省省级特色专业"
+        },
+        {
+          "major": "地理信息科学",
+          "records": [
+            "地理科学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "学院设有地理科学（公费师范）、地理科学（普通类）、人文地理与城乡规划、地理信息科学四个本科专业，其中地理科学专业为国家级特色专业和吉林省高等学校本科品牌专业建设点，人文地理与城乡规划专业为吉林省省级特色专业"
+        },
+        {
+          "major": "地理科学",
+          "records": [
+            "地理科学(优师专项)",
+            "地理科学(公费师范)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院设有地理科学（公费师范）、地理科学（普通类）、人文地理与城乡规划、地理信息科学四个本科专业，其中地理科学专业为国家级特色专业和吉林省高等学校本科品牌专业建设点，人文地理与城乡规划专业为吉林省省级特色专业"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://geo.nenu.edu.cn/jyjx1/bksjy/zysz.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://geo.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "环境学院",
+      "url": "https://hjxy.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "环境科学",
+          "records": [
+            "环境科学与工程类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有环境科学与工程一级学科博士点和生态学一级学科博士点（与生命科学学院联合）、资源与环境博士专业学位授权点，以及环境科学、环境工程和生态学三个本科专业均为国家级一流本科专业建设点"
+        },
+        {
+          "major": "环境工程",
+          "records": [
+            "环境科学与工程类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有环境科学与工程一级学科博士点和生态学一级学科博士点（与生命科学学院联合）、资源与环境博士专业学位授权点，以及环境科学、环境工程和生态学三个本科专业均为国家级一流本科专业建设点"
+        },
+        {
+          "major": "生态学",
+          "records": [
+            "环境科学与工程类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "有环境科学与工程一级学科博士点和生态学一级学科博士点（与生命科学学院联合）、资源与环境博士专业学位授权点，以及环境科学、环境工程和生态学三个本科专业均为国家级一流本科专业建设点"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "招生专业",
+          "url": "https://hjxy.nenu.edu.cn/zszp/bkszs/zszy.htm"
+        },
+        {
+          "title": "招生专业",
+          "url": "https://hjxy.nenu.edu.cn/zszp/lxszs/zszy.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "https://hjxy.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "体育学院(冰雪学院)",
+      "url": "http://pe.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "体育教育",
+          "records": [
+            "体育教育(公费师范)",
+            "体育教育"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "现有体育教育、运动训练、武术与民族传统体育和冰雪运动四个本科专业"
+        },
+        {
+          "major": "冰雪运动",
+          "records": [
+            "冰雪运动"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "现有体育教育、运动训练、武术与民族传统体育和冰雪运动四个本科专业"
+        }
+      ],
+      "candidates": [
+        "运动训练",
+        "武术与民族传统体育"
+      ],
+      "pages": [
+        {
+          "title": "专业设置",
+          "url": "http://pe.nenu.edu.cn/jyjx/bksjy/zysz.htm"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://pe.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "传媒科学学院(新闻学院)",
+      "url": "http://chuanmei.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "数字媒体技术",
+          "records": [
+            "数字媒体技术"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "东北师范大学传媒科学学院（新闻学院）始建于2000年，现设有广播电视编导、播音主持与艺术、新闻学、广告学、数字媒体技术5个本科专业（系），其中广播电视编导、新闻学、广告学、数字媒体技术为国家级一流本科专业"
+        },
+        {
+          "major": "广播电视编导",
+          "records": [
+            "广播电视编导"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "东北师范大学传媒科学学院（新闻学院）始建于2000年，现设有广播电视编导、播音主持与艺术、新闻学、广告学、数字媒体技术5个本科专业（系），其中广播电视编导、新闻学、广告学、数字媒体技术为国家级一流本科专业"
+        },
+        {
+          "major": "新闻学",
+          "records": [
+            "新闻传播学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "东北师范大学传媒科学学院（新闻学院）始建于2000年，现设有广播电视编导、播音主持与艺术、新闻学、广告学、数字媒体技术5个本科专业（系），其中广播电视编导、新闻学、广告学、数字媒体技术为国家级一流本科专业"
+        },
+        {
+          "major": "广告学",
+          "records": [
+            "新闻传播学类"
+          ],
+          "via_alias": true,
+          "excluded": false,
+          "evidence": "东北师范大学传媒科学学院（新闻学院）始建于2000年，现设有广播电视编导、播音主持与艺术、新闻学、广告学、数字媒体技术5个本科专业（系），其中广播电视编导、新闻学、广告学、数字媒体技术为国家级一流本科专业"
+        }
+      ],
+      "candidates": [
+        "播音主持与艺术",
+        "广播电视"
+      ],
+      "pages": [
+        {
+          "title": "本科招生",
+          "url": "http://chuanmei.nenu.edu.cn/xsgz/bkzs.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://chuanmei.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "国际汉学院（海外教育学院）",
+      "url": "http://scs.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "汉语言文学",
+          "records": [
+            "汉语言文学",
+            "汉语言文学(公费师范)",
+            "汉语言文学(优师专项)",
+            "汉语言文学(文昌试验班)"
+          ],
+          "via_alias": false,
+          "excluded": true,
+          "evidence": "1995年开始招收留学生汉语言文学专业本科生"
+        }
+      ],
+      "candidates": [],
+      "pages": [
+        {
+          "title": "本科生教学",
+          "url": "http://scs.nenu.edu.cn/rcpy/bksjx.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://scs.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://scs.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "东北师范大学罗格斯大学•纽瓦克学院",
+      "url": "http://newark.nenu.edu.cn/",
+      "status": "ok",
+      "matched": [
+        {
+          "major": "物流管理",
+          "records": [
+            "物流管理(中外合作办学)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院目前开设三个专业：金融学、物流管理（供应链管理）和市场营销"
+        },
+        {
+          "major": "市场营销",
+          "records": [
+            "市场营销(中外合作办学)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院目前开设三个专业：金融学、物流管理（供应链管理）和市场营销"
+        },
+        {
+          "major": "金融学",
+          "records": [
+            "金融学(中外合作办学)"
+          ],
+          "via_alias": false,
+          "excluded": false,
+          "evidence": "学院目前开设三个专业：金融学、物流管理（供应链管理）和市场营销"
+        }
+      ],
+      "candidates": [
+        "三个",
+        "供应链运作的"
+      ],
+      "pages": [
+        {
+          "title": "学院概况About the School",
+          "url": "http://newark.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    }
+  ]
+}

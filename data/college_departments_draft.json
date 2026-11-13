@@ -1,0 +1,1367 @@
+{
+  "generated_at": "2026-11-13 14:39:07",
+  "colleges": [
+    {
+      "college": "教育学部",
+      "url": "http://edu.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "教育管理学院",
+          "source_url": "http://edu.nenu.edu.cn/xbgk/xbjj.htm",
+          "evidence": "教育学院、教育管理学院、学前教育学院、初等教育学院是构成学部主干的专业性教学机构，国家基础教育实验中心、教育部人文社会科学重点研究基地东北师范大学中国农村教育发展研究院、国际与比较教育研究所、可持续发展教育中心、教育部东北师范大学基础教育课程研究中心、中国基础教育质量监测协同创新中心东北师范大学分中心等是国家教育部批准"
+        },
+        {
+          "name": "学前教育学院",
+          "source_url": "http://edu.nenu.edu.cn/xbgk/xbjj.htm",
+          "evidence": "教育学院、教育管理学院、学前教育学院、初等教育学院是构成学部主干的专业性教学机构，国家基础教育实验中心、教育部人文社会科学重点研究基地东北师范大学中国农村教育发展研究院、国际与比较教育研究所、可持续发展教育中心、教育部东北师范大学基础教育课程研究中心、中国基础教育质量监测协同创新中心东北师范大学分中心等是国家教育部批准"
+        },
+        {
+          "name": "元晖书院",
+          "source_url": "http://edu.nenu.edu.cn/xbgk/zzjg.htm",
+          "evidence": "1.元晖书院"
+        },
+        {
+          "name": "教师发展学院",
+          "source_url": "http://edu.nenu.edu.cn/xbgk/zzjg.htm",
+          "evidence": "2.教师发展学院"
+        }
+      ],
+      "majors": [
+        {
+          "name": "教育学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "小学教育（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "学前教育（公费师范）",
+          "department": "学前教育学院",
+          "evidence": "教育学院、教育管理学院、学前教育学院、初等教育学院是构成学部主干的专业性教学机构，国家基础教育实验中心、教育部人文社会科学重点研究基地东北师范大学中国农村教育发展研究院、国际与比较教育研究所、可持续发展教育中心、教育部东北师范大学基础教育课程研究中心、中国基础教育质量监测协同创新中心东北师范大学分中心等是国家教育部批准",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "教育学部",
+          "url": "http://edu.nenu.edu.cn/"
+        },
+        {
+          "title": "学部概况",
+          "url": "http://edu.nenu.edu.cn/xbgk/xbjj.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://edu.nenu.edu.cn/xbgk/zzjg.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://edu.nenu.edu.cn/rcpy/bksjy1/bkzs.htm"
+        }
+      ]
+    },
+    {
+      "college": "心理学院",
+      "url": "http://psy.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "心理学系",
+          "source_url": "http://psy.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "1980 年 心理学专业 正式获批为本科招生专业， 1981 年第一批获批建立硕士学位授权点， 1994 年设立心理学系， 2003 年获批发展与教育心理学博士点， 2011 年获批心理学一级学科博士点， 2014 年获批心理学博士后科研流动站， 2017 年设为独立建制的学院"
+        }
+      ],
+      "majors": [
+        {
+          "name": "心理学",
+          "department": "心理学系",
+          "evidence": "1980 年 心理学专业 正式获批为本科招生专业， 1981 年第一批获批建立硕士学位授权点， 1994 年设立心理学系， 2003 年获批发展与教育心理学博士点， 2011 年获批心理学一级学科博士点， 2014 年获批心理学博士后科研流动站， 2017 年设为独立建制的学院",
+          "match": "名称对应"
+        },
+        {
+          "name": "心理学（公费师范）",
+          "department": "心理学系",
+          "evidence": "1980 年 心理学专业 正式获批为本科招生专业， 1981 年第一批获批建立硕士学位授权点， 1994 年设立心理学系， 2003 年获批发展与教育心理学博士点， 2011 年获批心理学一级学科博士点， 2014 年获批心理学博士后科研流动站， 2017 年设为独立建制的学院",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "心理学院",
+          "url": "http://psy.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://psy.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://psy.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://psy.nenu.edu.cn/xygk/zzjg.htm"
+        }
+      ]
+    },
+    {
+      "college": "政法学院",
+      "url": "http://zf.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "思想政治教育系",
+          "source_url": "http://zf.nenu.edu.cn/",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系..."
+        },
+        {
+          "name": "法学系",
+          "source_url": "http://zf.nenu.edu.cn/",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系..."
+        },
+        {
+          "name": "政治学与行政学系",
+          "source_url": "http://zf.nenu.edu.cn/",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系..."
+        },
+        {
+          "name": "国际政治系",
+          "source_url": "http://zf.nenu.edu.cn/",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系..."
+        },
+        {
+          "name": "行政管理系",
+          "source_url": "http://zf.nenu.edu.cn/",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系..."
+        }
+      ],
+      "majors": [
+        {
+          "name": "政治学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "思想政治教育（公费师范）",
+          "department": "思想政治教育系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        },
+        {
+          "name": "法学",
+          "department": "法学系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        },
+        {
+          "name": "思想政治教育（优师专项）",
+          "department": "思想政治教育系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        },
+        {
+          "name": "政治学与行政学",
+          "department": "政治学与行政学系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        },
+        {
+          "name": "政治学与行政学（数据科学与大数据技术双学位）",
+          "department": "政治学与行政学系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        },
+        {
+          "name": "思想政治教育（仿吾试验班）",
+          "department": "思想政治教育系",
+          "evidence": "学院下设思想政治教育系、法学系、政治学与行政学系、国际政治系和行政管理系...",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "政法学院",
+          "url": "http://zf.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://zf.nenu.edu.cn/xxgk1/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://zf.nenu.edu.cn/xxgk1/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://zf.nenu.edu.cn/szdw.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://zf.nenu.edu.cn/rcpy.htm"
+        }
+      ]
+    },
+    {
+      "college": "经济与管理学院",
+      "url": "http://bs.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "企业管理系",
+          "source_url": "http://bs.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院目前设有企业管理系、会计学、金融学、经济学四个系，开设人力资源管理、市场营销、会计学、金融学和经济学5个本科专业，其中会计学专业设有教育部批准的与美国南伊利诺伊大学合作的中美合作项目"
+        },
+        {
+          "name": "经济学系",
+          "source_url": "http://bs.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "经济学系"
+        },
+        {
+          "name": "金融学系",
+          "source_url": "http://bs.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "金融学系"
+        },
+        {
+          "name": "会计学系",
+          "source_url": "http://bs.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "会计学系"
+        }
+      ],
+      "majors": [
+        {
+          "name": "经济学类",
+          "department": "经济学系",
+          "evidence": "经济学系",
+          "match": "名称对应"
+        },
+        {
+          "name": "会计学（中外合作办学）",
+          "department": "会计学系",
+          "evidence": "会计学系",
+          "match": "名称对应"
+        },
+        {
+          "name": "经济学（统计学双学位）",
+          "department": "经济学系",
+          "evidence": "经济学系",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "经济与管理学院",
+          "url": "http://bs.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://bs.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://bs.nenu.edu.cn/xygk/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://bs.nenu.edu.cn/jzyg/jsxl1.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://bs.nenu.edu.cn/alzx/zzjg.htm"
+        }
+      ]
+    },
+    {
+      "college": "文学院",
+      "url": "http://chinese.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "中国语言文学系",
+          "source_url": "http://chinese.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院现有中国语言文学系、汉语国际教育学院、古籍整理研究所三个单位，汉语言文学专业在教育部第四轮学科评估中评为B+，拥有中国语言文学一级学科博士授权点，下设5个二级学科博士点和11个二级学科硕士点，是中文专业全国首批12个文科人才培养基地之一"
+        }
+      ],
+      "majors": [
+        {
+          "name": "汉语言文学",
+          "department": "中国语言文学系",
+          "evidence": "学院现有中国语言文学系、汉语国际教育学院、古籍整理研究所三个单位，汉语言文学专业在教育部第四轮学科评估中评为B+，拥有中国语言文学一级学科博士授权点，下设5个二级学科博士点和11个二级学科硕士点，是中文专业全国首批12个文科人才培养基地之一",
+          "match": "同句对应"
+        },
+        {
+          "name": "汉语言文学（公费师范）",
+          "department": "中国语言文学系",
+          "evidence": "学院现有中国语言文学系、汉语国际教育学院、古籍整理研究所三个单位，汉语言文学专业在教育部第四轮学科评估中评为B+，拥有中国语言文学一级学科博士授权点，下设5个二级学科博士点和11个二级学科硕士点，是中文专业全国首批12个文科人才培养基地之一",
+          "match": "同句对应"
+        },
+        {
+          "name": "汉语言文学（优师专项）",
+          "department": "中国语言文学系",
+          "evidence": "学院现有中国语言文学系、汉语国际教育学院、古籍整理研究所三个单位，汉语言文学专业在教育部第四轮学科评估中评为B+，拥有中国语言文学一级学科博士授权点，下设5个二级学科博士点和11个二级学科硕士点，是中文专业全国首批12个文科人才培养基地之一",
+          "match": "同句对应"
+        },
+        {
+          "name": "汉语言文学（文昌试验班）",
+          "department": "中国语言文学系",
+          "evidence": "学院现有中国语言文学系、汉语国际教育学院、古籍整理研究所三个单位，汉语言文学专业在教育部第四轮学科评估中评为B+，拥有中国语言文学一级学科博士授权点，下设5个二级学科博士点和11个二级学科硕士点，是中文专业全国首批12个文科人才培养基地之一",
+          "match": "同句对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "文学院",
+          "url": "http://chinese.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://chinese.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://chinese.nenu.edu.cn/xygk/zzjg.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://chinese.nenu.edu.cn/shizidw/zrjs/ajys/gdwx.htm"
+        },
+        {
+          "title": "文学院2025版人才培养方案",
+          "url": "http://chinese.nenu.edu.cn/info/1101/26341.htm"
+        }
+      ]
+    },
+    {
+      "college": "历史文化学院",
+      "url": "http://sohac.nenu.edu.cn/",
+      "status": "partial",
+      "departments": [
+        {
+          "name": "有中国史系",
+          "source_url": "http://sohac.nenu.edu.cn/xygk.htm",
+          "evidence": "下设有中国史系、世界史系及世界古典文明史研究所、世界中古史研究所、世界文明史研究中心、东亚研究院、明清史研究所、美国研究所、东北研究所、史学理论研究所、中国边疆地区历史与社会研究东北工作站、国际教育法治研究中心、亚洲文明研究院、东北抗联与伪满洲国资料研究中心等教学与科研单位"
+        },
+        {
+          "name": "世界史系",
+          "source_url": "http://sohac.nenu.edu.cn/xygk.htm",
+          "evidence": "下设有中国史系、世界史系及世界古典文明史研究所、世界中古史研究所、世界文明史研究中心、东亚研究院、明清史研究所、美国研究所、东北研究所、史学理论研究所、中国边疆地区历史与社会研究东北工作站、国际教育法治研究中心、亚洲文明研究院、东北抗联与伪满洲国资料研究中心等教学与科研单位"
+        }
+      ],
+      "majors": [
+        {
+          "name": "历史学（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "历史学",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "历史学（日知试验班）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "历史学（优师专项）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "历史文化学院",
+          "url": "http://sohac.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://sohac.nenu.edu.cn/xygk.htm"
+        },
+        {
+          "title": ">学院简介",
+          "url": "http://sohac.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://sohac.nenu.edu.cn/szdw.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://sohac.nenu.edu.cn/rcpy.htm"
+        }
+      ]
+    },
+    {
+      "college": "外国语学院",
+      "url": "http://wy.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "英语系",
+          "source_url": "http://wy.nenu.edu.cn/info/1003/3394.htm",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系"
+        },
+        {
+          "name": "俄语系",
+          "source_url": "http://wy.nenu.edu.cn/info/1003/3394.htm",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系"
+        },
+        {
+          "name": "商务英语系",
+          "source_url": "http://wy.nenu.edu.cn/info/1003/3394.htm",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系"
+        },
+        {
+          "name": "德语系",
+          "source_url": "http://wy.nenu.edu.cn/info/1003/3394.htm",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系"
+        }
+      ],
+      "majors": [
+        {
+          "name": "商务英语",
+          "department": "商务英语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "俄语",
+          "department": "俄语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "英语（公费师范）",
+          "department": "英语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "英语（中外合作办学）",
+          "department": "英语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "英语",
+          "department": "英语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "日语",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "英语（优师专项）",
+          "department": "英语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        },
+        {
+          "name": "德语",
+          "department": "德语系",
+          "evidence": "五个系：英语系 俄语系 商务英语系 大学外语系 日德语系",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "外国语学院",
+          "url": "http://wy.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://wy.nenu.edu.cn/xygk.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://wy.nenu.edu.cn/szdw1/azc.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://wy.nenu.edu.cn/rcpy1/yjsjy.htm"
+        },
+        {
+          "title": "· 学院简介",
+          "url": "http://wy.nenu.edu.cn/info/1006/7646.htm"
+        },
+        {
+          "title": "· 机构设置",
+          "url": "http://wy.nenu.edu.cn/info/1003/3394.htm"
+        }
+      ]
+    },
+    {
+      "college": "音乐与舞蹈学院",
+      "url": "http://music.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "音乐学系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "音乐学系 >"
+        },
+        {
+          "name": "声乐系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "声乐系 >"
+        },
+        {
+          "name": "钢琴系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "钢琴系 >"
+        },
+        {
+          "name": "作曲系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "作曲系 >"
+        },
+        {
+          "name": "舞蹈系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "舞蹈系 >"
+        },
+        {
+          "name": "流行音乐系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "流行音乐系 >"
+        },
+        {
+          "name": "管弦系",
+          "source_url": "http://music.nenu.edu.cn/",
+          "evidence": "管弦系 >"
+        }
+      ],
+      "majors": [
+        {
+          "name": "音乐学（器乐）",
+          "department": "音乐学系",
+          "evidence": "音乐学系 >",
+          "match": "名称对应"
+        },
+        {
+          "name": "舞蹈编导",
+          "department": "舞蹈系",
+          "evidence": "舞蹈系 >",
+          "match": "名称对应"
+        },
+        {
+          "name": "音乐学（声乐，师范）",
+          "department": "音乐学系",
+          "evidence": "音乐学系 >",
+          "match": "名称对应"
+        },
+        {
+          "name": "音乐学（钢琴，师范）",
+          "department": "音乐学系",
+          "evidence": "音乐学系 >",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "音乐与舞蹈学院",
+          "url": "http://music.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://music.nenu.edu.cn/xygk.htm"
+        },
+        {
+          "title": "学院简介 >",
+          "url": "http://music.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://music.nenu.edu.cn/szdw.htm"
+        },
+        {
+          "title": "组织机构 >",
+          "url": "http://music.nenu.edu.cn/xsgz/zzjg.htm"
+        }
+      ]
+    },
+    {
+      "college": "美术学院",
+      "url": "http://fineart.nenu.edu.cn/",
+      "status": "no_department",
+      "departments": [],
+      "majors": [
+        {
+          "name": "美术学",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "设计学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "雕塑",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "美术学（师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "美术学院",
+          "url": "http://fineart.nenu.edu.cn/"
+        }
+      ]
+    },
+    {
+      "college": "马克思主义学部",
+      "url": "http://marxism.nenu.edu.cn/",
+      "status": "no_department",
+      "departments": [],
+      "majors": [
+        {
+          "name": "马克思主义理论类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "思想政治教育（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "思想政治教育（优师专项）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "思想政治教育（仿吾试验班）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "马克思主义学部",
+          "url": "http://marxism.nenu.edu.cn/"
+        },
+        {
+          "title": "学部概况",
+          "url": "http://marxism.nenu.edu.cn/xbgk/xbjj.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://marxism.nenu.edu.cn/szdw.jsp?urltype=tree.TreeTempUrl&wbtreeid=1027"
+        },
+        {
+          "title": "李忠军：以高水平师资队伍服务一体化建设",
+          "url": "http://marxism.nenu.edu.cn/info/1091/5264.htm"
+        }
+      ]
+    },
+    {
+      "college": "数学与统计学院",
+      "url": "http://math.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "基础数学系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "信息与计算科学系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "统计系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "应用数学系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "运筹与控制系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "数学教育系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室"
+        },
+        {
+          "name": "数学系",
+          "source_url": "http://math.nenu.edu.cn/index/xyjj.htm",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长"
+        }
+      ],
+      "majors": [
+        {
+          "name": "数学类",
+          "department": "数学系",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长",
+          "match": "名称对应"
+        },
+        {
+          "name": "数学与应用数学（公费师范）",
+          "department": "数学系",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长",
+          "match": "名称对应"
+        },
+        {
+          "name": "数学与应用数学（陆家羲试验班）",
+          "department": "数学系",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长",
+          "match": "名称对应"
+        },
+        {
+          "name": "数学与应用数学（优师专项）",
+          "department": "数学系",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长",
+          "match": "名称对应"
+        },
+        {
+          "name": "数学与应用数学",
+          "department": "数学系",
+          "evidence": "•1950年10月，数学系成立代数、几何、数学分析和初等数学4个教研组，校长聘任吴莲溪教授、杨春田教授、吴宗函教授和马忠林副教授分别为教研组组长",
+          "match": "名称对应"
+        },
+        {
+          "name": "统计学（数智试验班）",
+          "department": "统计系",
+          "evidence": "2009年9月，经过调整，学院下设基础数学系、信息与计算科学系、统计系、应用数学系、运筹与控制系、数学教育系、金融与信息工程研究中心、应用数学研究所、统计咨询中心，建有应用统计教育部重点实验室",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "数学与统计学院",
+          "url": "http://math.nenu.edu.cn/"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://math.nenu.edu.cn/zzjg/zzlb.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://math.nenu.edu.cn/djgz/jgsz.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://math.nenu.edu.cn/index/xyjj.htm"
+        }
+      ]
+    },
+    {
+      "college": "信息科学与技术学院",
+      "url": "http://ist.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "计算机科学与技术系",
+          "source_url": "http://ist.nenu.edu.cn/",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心"
+        },
+        {
+          "name": "教育技术系",
+          "source_url": "http://ist.nenu.edu.cn/",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心"
+        },
+        {
+          "name": "信息管理系",
+          "source_url": "http://ist.nenu.edu.cn/",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心"
+        },
+        {
+          "name": "智能科学与技术系",
+          "source_url": "http://ist.nenu.edu.cn/",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心"
+        },
+        {
+          "name": "计算机科学系",
+          "source_url": "http://ist.nenu.edu.cn/",
+          "evidence": "网站制作与维护: 计算机科学系 电话: 0431-84536338 传真: 0431-84536331"
+        }
+      ],
+      "majors": [
+        {
+          "name": "计算机类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "教育技术学（智能教育，公费师范）",
+          "department": "教育技术系",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心",
+          "match": "名称对应"
+        },
+        {
+          "name": "计算机科学与技术（中外合作办学）",
+          "department": "计算机科学与技术系",
+          "evidence": "机构设置 计算机科学与技术系 教育技术系 信息管理系 智能科学与技术系 计算机教研中心",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "信息科学与技术学院",
+          "url": "http://ist.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://ist.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://ist.nenu.edu.cn/jgsz/jsjkxyjsx.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://ist.nenu.edu.cn/dqgz/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://ist.nenu.edu.cn/jzyg/szdw.htm"
+        }
+      ]
+    },
+    {
+      "college": "物理学院",
+      "url": "http://www.phy.nenu.edu.cn/",
+      "status": "no_department",
+      "departments": [],
+      "majors": [
+        {
+          "name": "物理学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "物理学（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "物理学（陆家羲试验班）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "物理学（优师专项）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "物理学院",
+          "url": "http://www.phy.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://www.phy.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://www.phy.nenu.edu.cn/xygk/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://www.phy.nenu.edu.cn/szdw/agwzc.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://www.phy.nenu.edu.cn/rcpy/xkgk.htm"
+        }
+      ]
+    },
+    {
+      "college": "化学学院",
+      "url": "http://chem.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "化学系",
+          "source_url": "http://chem.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "东北师范大学化学学科创建于1948年10月，为原东北大学自然科学院化学系，1950年更名为东北师范大学化学系，1999年7月，化学系与分析测试中心合并成立东北师范大学化学学院"
+        }
+      ],
+      "majors": [
+        {
+          "name": "化学",
+          "department": "化学系",
+          "evidence": "东北师范大学化学学科创建于1948年10月，为原东北大学自然科学院化学系，1950年更名为东北师范大学化学系，1999年7月，化学系与分析测试中心合并成立东北师范大学化学学院",
+          "match": "名称对应"
+        },
+        {
+          "name": "化学（郑汝骊试验班）",
+          "department": "化学系",
+          "evidence": "东北师范大学化学学科创建于1948年10月，为原东北大学自然科学院化学系，1950年更名为东北师范大学化学系，1999年7月，化学系与分析测试中心合并成立东北师范大学化学学院",
+          "match": "名称对应"
+        },
+        {
+          "name": "化学（公费师范）",
+          "department": "化学系",
+          "evidence": "东北师范大学化学学科创建于1948年10月，为原东北大学自然科学院化学系，1950年更名为东北师范大学化学系，1999年7月，化学系与分析测试中心合并成立东北师范大学化学学院",
+          "match": "名称对应"
+        },
+        {
+          "name": "化学（优师专项）",
+          "department": "化学系",
+          "evidence": "东北师范大学化学学科创建于1948年10月，为原东北大学自然科学院化学系，1950年更名为东北师范大学化学系，1999年7月，化学系与分析测试中心合并成立东北师范大学化学学院",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "化学学院",
+          "url": "http://chem.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://chem.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://chem.nenu.edu.cn/xygk/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://chem.nenu.edu.cn/szdw1/jsxx/bd.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://chem.nenu.edu.cn/rcpy.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://chem.nenu.edu.cn/dqgz/jgsz.htm"
+        }
+      ]
+    },
+    {
+      "college": "生命科学学院",
+      "url": "http://sky.nenu.edu.cn/",
+      "status": "no_department",
+      "departments": [],
+      "majors": [
+        {
+          "name": "生物科学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "生物科学（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "生物科学（郝水试验班）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "生物科学（优师专项）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "生命科学学院",
+          "url": "http://sky.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://sky.nenu.edu.cn/xygk.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://sky.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://sky.nenu.edu.cn/szdw.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://sky.nenu.edu.cn/dqgz/jgsz.htm"
+        }
+      ]
+    },
+    {
+      "college": "地理科学学院",
+      "url": "http://geo.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "地理科学（地理教育）系",
+          "source_url": "http://geo.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构"
+        },
+        {
+          "name": "自然地理与资源环境系",
+          "source_url": "http://geo.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构"
+        },
+        {
+          "name": "人文地理与城乡规划系",
+          "source_url": "http://geo.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构"
+        },
+        {
+          "name": "地理信息科学系",
+          "source_url": "http://geo.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构"
+        }
+      ],
+      "majors": [
+        {
+          "name": "地理科学（优师专项）",
+          "department": "地理科学（地理教育）系",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构",
+          "match": "名称对应"
+        },
+        {
+          "name": "地理科学（公费师范）",
+          "department": "地理科学（地理教育）系",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构",
+          "match": "名称对应"
+        },
+        {
+          "name": "地理科学类",
+          "department": "地理科学（地理教育）系",
+          "evidence": "学院下设地理科学（地理教育）系、自然地理与资源环境系、人文地理与城乡规划系、地理信息科学系、吉林省地理学基础实验教学示范中心等教学机构",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "地理科学学院",
+          "url": "http://geo.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://geo.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://geo.nenu.edu.cn/xygk/zzjg.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://geo.nenu.edu.cn/szdw1.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://geo.nenu.edu.cn/jjy.jsp?urltype=tree.TreeTempUrl&wbtreeid=1293"
+        }
+      ]
+    },
+    {
+      "college": "环境学院",
+      "url": "https://hjxy.nenu.edu.cn/",
+      "status": "partial",
+      "departments": [
+        {
+          "name": "佐治亚理工学院",
+          "source_url": "https://hjxy.nenu.edu.cn/xygk/xyjj.htm",
+          "evidence": "学院还积极开展对外交流与合作，与10余个国家和地区的20余所国际一流大学和科研机构，如：美国的乔治敦大学、加州大学洛杉矶分校、宾州州立大学、佐治亚理工学院、康涅狄格大学、佛罗里达大学、威斯星大学、英国的阿伯丁大学、曼彻斯特大学、德国的马普学会、加拿大的阿尔伯塔大学、日本的东京大学、京都大学、北海道大学、东京工业大学、早"
+        }
+      ],
+      "majors": [
+        {
+          "name": "环境科学与工程类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "环境学院",
+          "url": "https://hjxy.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "https://hjxy.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "https://hjxy.nenu.edu.cn/xygk/zzjg.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "https://hjxy.nenu.edu.cn/szdw/zrjs.htm"
+        },
+        {
+          "title": "人才培养",
+          "url": "https://hjxy.nenu.edu.cn/rcpy/bkspy/zyjs.htm"
+        }
+      ]
+    },
+    {
+      "college": "体育学院(冰雪学院)",
+      "url": "http://pe.nenu.edu.cn/",
+      "status": "ok",
+      "departments": [
+        {
+          "name": "基础理论教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "基础理论教研室"
+        },
+        {
+          "name": "体操教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "体操教研室"
+        },
+        {
+          "name": "田径教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "田径教研室"
+        },
+        {
+          "name": "篮球教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "篮球教研室"
+        },
+        {
+          "name": "排球教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "排球教研室"
+        },
+        {
+          "name": "足球教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "足球教研室"
+        },
+        {
+          "name": "乒羽网教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "乒羽网教研室"
+        },
+        {
+          "name": "冰雪教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "冰雪教研室"
+        },
+        {
+          "name": "武术与民族传统体育教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "武术与民族传统体育教研室"
+        },
+        {
+          "name": "军体教研室",
+          "source_url": "http://pe.nenu.edu.cn/xygk/jgsz.htm",
+          "evidence": "军体教研室"
+        }
+      ],
+      "majors": [
+        {
+          "name": "体育教育（公费师范）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "体育教育",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "冰雪运动",
+          "department": "冰雪教研室",
+          "evidence": "冰雪教研室",
+          "match": "名称对应"
+        }
+      ],
+      "pages": [
+        {
+          "title": "体育学院(冰雪学院)",
+          "url": "http://pe.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://pe.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://pe.nenu.edu.cn/xygk/jgsz.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://pe.nenu.edu.cn/szdw/zrjs/ajys/tjjys.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://pe.nenu.edu.cn/xyyd/zzjg.htm"
+        }
+      ]
+    },
+    {
+      "college": "传媒科学学院(新闻学院)",
+      "url": "http://chuanmei.nenu.edu.cn/",
+      "status": "partial",
+      "departments": [
+        {
+          "name": "新闻学系",
+          "source_url": "http://chuanmei.nenu.edu.cn/",
+          "evidence": "专业设置 影视编导 播音主持 新闻学系 广告学系 数字媒体"
+        },
+        {
+          "name": "广告学系",
+          "source_url": "http://chuanmei.nenu.edu.cn/",
+          "evidence": "专业设置 影视编导 播音主持 新闻学系 广告学系 数字媒体"
+        }
+      ],
+      "majors": [
+        {
+          "name": "新闻传播学类",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "数字媒体技术",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "广播电视编导",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "传媒科学学院(新闻学院)",
+          "url": "http://chuanmei.nenu.edu.cn/"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://chuanmei.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "机构设置",
+          "url": "http://chuanmei.nenu.edu.cn/xygk/jgsz.htm"
+        }
+      ]
+    },
+    {
+      "college": "国际汉学院（海外教育学院）",
+      "url": "http://scs.nenu.edu.cn/",
+      "status": "partial",
+      "departments": [
+        {
+          "name": "国际中文教育学院",
+          "source_url": "http://scs.nenu.edu.cn/xygk/zzjg.htm",
+          "evidence": "版权所有©2015 东北师范大学 国际中文教育学院"
+        }
+      ],
+      "majors": [],
+      "pages": [
+        {
+          "title": "国际汉学院（海外教育学院）",
+          "url": "http://scs.nenu.edu.cn/"
+        },
+        {
+          "title": "学院概况",
+          "url": "http://scs.nenu.edu.cn/xygk.htm"
+        },
+        {
+          "title": "学院简介",
+          "url": "http://scs.nenu.edu.cn/xygk/xyjj.htm"
+        },
+        {
+          "title": "组织机构",
+          "url": "http://scs.nenu.edu.cn/xygk/zzjg.htm"
+        },
+        {
+          "title": "师资队伍",
+          "url": "http://scs.nenu.edu.cn/sz_list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1012"
+        },
+        {
+          "title": "人才培养",
+          "url": "http://scs.nenu.edu.cn/rcpy.htm"
+        }
+      ]
+    },
+    {
+      "college": "东北师范大学罗格斯大学•纽瓦克学院",
+      "url": "http://newark.nenu.edu.cn/",
+      "status": "no_department",
+      "departments": [],
+      "majors": [
+        {
+          "name": "金融学（中外合作办学）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "物流管理（中外合作办学）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        },
+        {
+          "name": "市场营销（中外合作办学）",
+          "department": null,
+          "evidence": null,
+          "match": null
+        }
+      ],
+      "pages": [
+        {
+          "title": "东北师范大学罗格斯大学•纽瓦克学院",
+          "url": "http://newark.nenu.edu.cn/"
+        },
+        {
+          "title": "学院简介 About",
+          "url": "http://newark.nenu.edu.cn/xygk/xyjj.htm"
+        }
+      ]
+    }
+  ]
+}

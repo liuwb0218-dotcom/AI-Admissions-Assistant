@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.idea/
+.pytest_cache/
+test_ai_advisor.db
+*.db
+.coverage
+htmlcov/
+*.log
+.screenshots/
+.trae-html-share-packages/
