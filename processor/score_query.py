@@ -44,7 +44,17 @@ MAX_MAJORS = 4
 MAX_RECOMMEND = 8
 
 # 问句没有命中具体专业时，命中这些词说明用户想按分数让系统推荐专业
-RECOMMEND_KEYWORDS = ("哪些专业", "什么专业", "专业选择", "推荐", "能报什么", "可选专业", "适合")
+RECOMMEND_KEYWORDS = (
+    "哪些专业",
+    "什么专业",
+    "专业选择",
+    "推荐",
+    "能报什么",
+    "可选专业",
+    "适合",
+    "合适",
+    "匹配",
+)
 
 # 问句没有命中具体专业时，命中这些词则改用院校投档线兜底
 SCHOOL_KEYWORDS = ("东北师范大学", "东北师大", "东师", "学校", "投档线")
@@ -65,7 +75,7 @@ RANK_HINT_PATTERN = re.compile(r"(?:位次|排名|名次)\s*(?:约|是|大概|�
 BARE_RANK_PATTERN = re.compile(r"^\s*(\d{1,6})\s*(?:名|位)?\s*$")
 # 只写了分数又问专业，如“599可以报什么专业”
 RECOMMEND_INTENT_PATTERN = re.compile(
-    r"能报|可以报|报什么|哪些专业|什么专业|专业选择|可选专业|推荐|适合"
+    r"能报|可以报|报什么|哪些专业|什么专业|专业选择|可选专业|推荐|适合|合适|匹配"
 )
 # 考生只回“物理”“历史”“物化生”这类简称时，也要能识别出科类
 _BARE_MAJOR_TYPE_PATTERNS = (
@@ -687,14 +697,19 @@ def _merge_slots(base: Dict, extra: Dict) -> Dict:
     return merged
 
 
-def _next_missing_slot(slots: Dict) -> str:
-    """按 省份 → 科类 → 分数 → 位次 → 调剂 的顺序返回下一个要问的槽位。"""
+def _next_missing_slot(slots: Dict, skip_optional: bool = False) -> str:
+    """按 省份 → 科类 → 分数 → 位次 → 调剂 的顺序返回下一个要问的槽位。
+
+    skip_optional=True 时位次和调剂都按“不限”处理，不再追问。
+    """
     if not slots["province"]:
         return "province"
     if not slots["major_type"]:
         return "major_type"
     if not slots["score"] and not slots["score_unknown"]:
         return "score"
+    if skip_optional:
+        return ""
     if not slots["rank"] and not slots["rank_unknown"]:
         return "rank"
     if slots["adjust"] is None:
@@ -737,8 +752,8 @@ def _slot_question(slot: str, slots: Dict) -> str:
     )
 
 
-def _advance_slots(db: Session, slots: Dict) -> Dict:
-    pending = _next_missing_slot(slots)
+def _advance_slots(db: Session, slots: Dict, skip_optional: bool = False) -> Dict:
+    pending = _next_missing_slot(slots, skip_optional)
     if pending:
         return {"answer": _slot_question(pending, slots), "refs": [], "intent": SLOT_INTENT}
     return _recommend_by_slots(db, slots)
@@ -748,8 +763,37 @@ def _is_recommend_question(text: str) -> bool:
     return any(keyword in text for keyword in RECOMMEND_KEYWORDS)
 
 
+def _wants_major_match(text: str) -> bool:
+    """有推荐意图、且明确在问专业 / 志愿，才按资料去匹配（或追问缺口）。"""
+    if not _is_recommend_question(text):
+        return False
+    return "专业" in text or "志愿" in text
+
+
+def _profile_recommend_ready(
+    question: str, profile: Optional[StudentProfile]
+) -> bool:
+    """考生资料已够匹配（省份 + 科类 + 分数 / 位次）且问句在问专业 / 志愿。"""
+    if profile is None:
+        return False
+    if not _wants_major_match(question):
+        return False
+    if profile.province not in PROVINCES:
+        return False
+    major_type = _finalize_major_type(
+        profile.province, _normalize_major_type(profile.subject_combo)
+    )
+    if not major_type:
+        return False
+    return bool(profile.score or profile.rank_no)
+
+
 def _build_recommendation(
-    db: Session, user: User, question: str, conversation_id: Optional[int] = None
+    db: Session,
+    user: User,
+    question: str,
+    conversation_id: Optional[int] = None,
+    profile: Optional[StudentProfile] = None,
 ) -> Optional[Dict]:
     """按分数推荐专业：信息不全时逐项追问，齐全后给出匹配结果。"""
     # 既没提推荐意图也没给分数 / 位次的，交给检索链路，避免把普通问句变成追问
@@ -757,8 +801,11 @@ def _build_recommendation(
         _extract_score_value(question) or _extract_rank_value(question)
     ):
         return None
-    profile = db.query(StudentProfile).filter(StudentProfile.user_id == user.id).first()
-    return _advance_slots(db, _parse_slots([question], profile))
+    if profile is None:
+        profile = db.query(StudentProfile).filter(StudentProfile.user_id == user.id).first()
+    slots = _parse_slots([question], profile)
+    # 资料已经够匹配时，位次和调剂按“不限”处理，直接给结果
+    return _advance_slots(db, slots, skip_optional=_profile_recommend_ready(question, profile))
 
 
 def _conversation_tail(db: Session, conversation_id: Optional[int]) -> List[Message]:
@@ -867,7 +914,7 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
             "intent": "score",
         }
 
-    year = (
+    score_year = (
         db.query(func.max(AdmissionScore.year))
         .filter(
             AdmissionScore.province == province,
@@ -875,13 +922,37 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
         )
         .scalar()
     )
-    if year is None:
+    if score_year is None:
         return {
             "answer": f"暂未收录 {province} · {major_type} 的录取分数，"
             "可以到「专业查询」页切换其他省份 / 科类查看。",
             "refs": [],
             "intent": "score",
         }
+
+    # 只推今年（最新计划年份）确实在招的一般计划专业
+    plan_year = (
+        db.query(func.max(EnrollmentPlan.year))
+        .filter(
+            EnrollmentPlan.province == province,
+            EnrollmentPlan.major_type == major_type,
+        )
+        .scalar()
+    )
+    plan_ids: List[int] = []
+    if plan_year is not None:
+        plan_ids = [
+            row[0]
+            for row in db.query(EnrollmentPlan.major_id)
+            .filter(
+                EnrollmentPlan.province == province,
+                EnrollmentPlan.major_type == major_type,
+                EnrollmentPlan.year == plan_year,
+                EnrollmentPlan.plan_type.like("%一般计划%"),
+            )
+            .distinct()
+            .all()
+        ]
 
     # 没填位次时用一分一段表补一个估算值，仅用于展示和说明，筛选仍以分数为准
     estimated = _estimate_rank(db, province, major_type, candidate_score)
@@ -898,24 +969,22 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
         rank_note = "未提供位次，且暂未收录该省一分一段表，以下按分数匹配。"
 
     # 只用一般计划（普通类）做推荐：预科班、专项、中外合作对考生不通用
-    rows = (
-        db.query(AdmissionScore)
-        .filter(
-            AdmissionScore.province == province,
-            AdmissionScore.major_type == major_type,
-            AdmissionScore.year == year,
-            AdmissionScore.min_score.isnot(None),
-            AdmissionScore.plan_type.like("%一般计划%"),
-        )
-        .order_by(AdmissionScore.min_score.desc())
-        .all()
+    query = db.query(AdmissionScore).filter(
+        AdmissionScore.province == province,
+        AdmissionScore.major_type == major_type,
+        AdmissionScore.year == score_year,
+        AdmissionScore.min_score.isnot(None),
+        AdmissionScore.plan_type.like("%一般计划%"),
     )
+    if plan_ids:
+        query = query.filter(AdmissionScore.major_id.in_(plan_ids))
+    rows = query.order_by(AdmissionScore.min_score.desc()).all()
     best: Dict[int, AdmissionScore] = {}
     for row in rows:
         best.setdefault(row.major_id, row)
     if not best:
         return {
-            "answer": f"{year} 年 {province} · {major_type} 暂未收录一般计划的专业录取分数，"
+            "answer": f"{score_year} 年 {province} · {major_type} 暂未收录一般计划的专业录取分数，"
             "可以到「专业查询」页换省份 / 科类查看。",
             "refs": [],
             "intent": "score",
@@ -942,7 +1011,7 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
         lowest = min(best.values(), key=lambda row: row.min_score or 0)
         answer = (
             f"{base}。\n"
-            f"按 {year} 年 {province} · {major_type} 的一般计划数据，"
+            f"按 {score_year} 年 {province} · {major_type} 的一般计划数据，"
             f"最低分最低的专业也要 {lowest.min_score} 分，"
             f"你提供的成绩暂时够不上；可以到「专业查询」页换科类，或查看其他批次 / 省份。"
         )
@@ -950,7 +1019,7 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
             answer = f"{rank_note}\n{answer}"
         return {
             "answer": answer,
-            "refs": [f"admission_scores#{year}/{province}/{major_type}"],
+            "refs": [f"admission_scores#{score_year}/{province}/{major_type}"],
             "intent": "score",
         }
 
@@ -958,11 +1027,22 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
     total = len(entries)
     shown = entries[:MAX_RECOMMEND]
 
-    adjust_label = "接受专业调剂" if adjust else "不接受专业调剂"
+    confirm = f"已确认：{province} · {major_type}，{base}"
+    if adjust is not None:
+        confirm += f"，{'接受专业调剂' if adjust else '不接受专业调剂'}"
+    confirm += "。"
+
+    if plan_year is not None:
+        basis = (
+            f"以 {plan_year} 年招生计划、{score_year} 年一般计划录取数据为准，"
+        )
+    else:
+        basis = f"以 {score_year} 年一般计划录取数据为准，"
     lines: List[str] = [
-        f"已确认：{province} · {major_type}，{base}，{adjust_label}。",
-        f"以 {year} 年一般计划录取数据为准，按{candidate_rank and '位次' or '分数'}筛选出 "
-        f"{total} 个可报专业，这里列出最低分最高的 {len(shown)} 个：",
+        confirm,
+        basis
+        + f"按{candidate_rank and '位次' or '分数'}筛选出 {total} 个可报专业，"
+        f"这里列出最低分最高的 {len(shown)} 个：",
     ]
     if rank_note:
         lines.insert(1, rank_note)
@@ -976,7 +1056,7 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
         if candidate_score:
             detail += f"（比你的分数低 {candidate_score - (row.min_score or 0)} 分）"
         lines.append(f"{index}. {label}：{detail}")
-        refs.append(f"admission_scores#{year}/{province}/{major_type}/{major.name}")
+        refs.append(f"admission_scores#{score_year}/{province}/{major_type}/{major.name}")
 
     close = [item for item in entries if candidate_score and candidate_score - (item[1].min_score or 0) <= 5]
     if close:
@@ -989,7 +1069,12 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
             lines.append("以上专业最低分都低于你的成绩，可按分差从大到小安排稳妥与保底志愿。")
         else:
             lines.append("以上专业最低位次都在你之后，可按位次差从大到小安排稳妥与保底志愿。")
-    if adjust:
+    if adjust is None:
+        lines.append(
+            "你还没有填写是否接受专业调剂，以上按“不限”处理；"
+            "补充调剂意向后我可以给出更精确的志愿梯度建议。"
+        )
+    elif adjust:
         lines.append(
             "你接受专业调剂，建议在志愿表里勾选“服从专业调剂”，可以显著降低退档风险；"
             "分差 5 分以内的专业适合放在前两个志愿冲刺。"
@@ -998,6 +1083,11 @@ def _recommend_by_slots(db: Session, slots: Dict) -> Dict:
         lines.append(
             "你不接受专业调剂，退档风险会明显上升，建议只填分差 10 分以上的专业，"
             "并保留 1~2 个分差更大的保底专业。"
+        )
+    missing_plan = len(set(plan_ids)) - len(best)
+    if plan_year is not None and missing_plan > 0:
+        lines.append(
+            f"{plan_year} 年招生计划里另有 {missing_plan} 个专业暂无往年录取分数，未计入上面的数量。"
         )
     lines.append("以上为往年一般计划数据，仅供参考；最终以当年招生计划、省控线和选科要求为准。")
     return {"answer": "\n".join(lines), "refs": refs, "intent": "score"}
@@ -1014,7 +1104,9 @@ def build_score_answer(
         return _advance_flow(db, flow_texts, question, profile)
 
     question = _effective_question(db, conversation_id, question)
-    if not is_score_question(question):
+    profile = db.query(StudentProfile).filter(StudentProfile.user_id == user.id).first()
+    # 考生资料齐全且问句在问专业 / 志愿时，不依赖问句里的分数也直接匹配
+    if not is_score_question(question) and not _wants_major_match(question):
         return None
     majors = match_majors(db, question)
     if not majors:
@@ -1022,7 +1114,7 @@ def build_score_answer(
         if _is_school_question(question):
             return _build_school_answer(db, user, question, conversation_id)
         # “我 598 分能报哪些专业”这类问题按分数推荐专业
-        return _build_recommendation(db, user, question, conversation_id)
+        return _build_recommendation(db, user, question, conversation_id, profile)
 
     province, major_type, profile = _resolve_scope(db, user, question, conversation_id)
     if not province:

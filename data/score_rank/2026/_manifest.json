@@ -1,0 +1,905 @@
+{
+  "year": 2026,
+  "index_url": "https://gaokao.chsi.com.cn/gkxx/ss/202606/20260624/2293845984.html",
+  "generated_at": "2026-11-13 16:02:12",
+  "entries": [
+    {
+      "province": "北京",
+      "title": "北京市2026年高考考生分数分布",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847179.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847179.html",
+          "title": "北京市2026年高考考生分数分布",
+          "html": "data\\score_rank\\2026\\北京\\pages\\北京市2026年高考考生分数分布.html"
+        }
+      ]
+    },
+    {
+      "province": "天津",
+      "title": "天津：2026年高考总成绩分数段统计情况",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293845980.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293845981-2293845980-ceda0163fd4fad87e9fe561da1f1c735.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\天津\\天津_01_点击下载_2026年高考总成绩分数段统计情况.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293845980.html",
+          "title": "天津：2026年高考总成绩分数段统计情况",
+          "html": "data\\score_rank\\2026\\天津\\pages\\天津_2026年高考总成绩分数段统计情况.html"
+        }
+      ]
+    },
+    {
+      "province": "河北",
+      "title": "2026年河北省普通高校招生各类考生成绩统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847629.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847629.html",
+          "title": "2026年河北省普通高校招生各类考生成绩统计表",
+          "html": "data\\score_rank\\2026\\河北\\pages\\2026年河北省普通高校招生各类考生成绩统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "山西",
+      "title": "山西：2026年普通高考一分一段统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847320.html",
+      "status": "html_table",
+      "files": [
+        {
+          "url": "http://www.sxkszx.cn/images_2025/logo202509033.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\山西\\山西_01_图片.png"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847320.html",
+          "title": "山西：2026年普通高考一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西_2026年普通高考一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n5905127212.html",
+          "title": "山西省2026年普通高考成绩（历史科目组合）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考成绩_历史科目组合_一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n2816127213.html",
+          "title": "山西省2026年普通高考成绩（物理科目组合）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考成绩_物理科目组合_一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n8108127214.html",
+          "title": "山西省2026年普通高考（美术与设计类综合分）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考_美术与设计类综合分_一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n3091127215.html",
+          "title": "山西省2026年普通高考（音乐表演类<声乐>综合分）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考_音乐表演类_声乐_综合分_一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n6126127216.html",
+          "title": "山西省2026年普通高考（音乐表演类<器乐>综合分）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考_音乐表演类_器乐_综合分_一分一段统计表.html"
+        },
+        {
+          "url": "http://www.sxkszx.cn/news/2026625/n0520127217.html",
+          "title": "山西省2026年普通高考（音乐教育类<声乐主项>综合分）一分一段统计表",
+          "html": "data\\score_rank\\2026\\山西\\pages\\山西省2026年普通高考_音乐教育类_声乐主项_综合分_一分一段统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "辽宁",
+      "title": "辽宁省2026年普通高校招生考试成绩统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847495.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847496-2293847495-f6033c0e3d4183c956f69782d85fb15b.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_01_点击下载_辽宁省2026年普通高校招生考试成绩统计表_物理学.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847497-2293847495-21c99a1ca0c8022033905d05fa12ec68.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_02_点击下载_辽宁省2026年普通高校招生考试成绩统计表_历史学.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847498-2293847495-855c99c0c53c7f4ba35ee1f0cca8039b.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_03_点击下载_辽宁省2026年普通高校招生考试成绩统计表_体育_.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847499-2293847495-d79d2bf75f18930726b764ccfb0e0f7b.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_04_点击下载_辽宁省2026年普通高校招生考试成绩统计表_体育_.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847500-2293847495-43d136fab2cd826419e2d207b188f14a.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_05_点击下载_辽宁省2026年普通高校招生考试成绩统计表_艺术_.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847501-2293847495-0c92b285006dfe28567683634bcca797.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\辽宁\\辽宁_06_点击下载_辽宁省2026年普通高校招生考试成绩统计表_艺术_.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847495.html",
+          "title": "辽宁省2026年普通高校招生考试成绩统计表",
+          "html": "data\\score_rank\\2026\\辽宁\\pages\\辽宁省2026年普通高校招生考试成绩统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "吉林",
+      "title": "2026年吉林省高考成绩一分段表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847182.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847182.html",
+          "title": "2026年吉林省高考成绩一分段表",
+          "html": "data\\score_rank\\2026\\吉林\\pages\\2026年吉林省高考成绩一分段表.html"
+        }
+      ]
+    },
+    {
+      "province": "黑龙江",
+      "title": "2026年黑龙江省普通高考成绩一分段统计表公布",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847511.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847511.html",
+          "title": "2026年黑龙江省普通高考成绩一分段统计表公布",
+          "html": "data\\score_rank\\2026\\黑龙江\\pages\\2026年黑龙江省普通高考成绩一分段统计表公布.html"
+        }
+      ]
+    },
+    {
+      "province": "上海",
+      "title": "上海：2026年普通高校招生本科阶段考生各类别成绩分布表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844300.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/0.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_01_本科录取控制分数线上考生高考成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/1.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_02_1_美术与设计类专业统考本科合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/2.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_03_2_表_导_演类_戏剧影视表演方向专业统考合格考生投档成绩分.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/3.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_04_3_表_导_演类_戏剧影视导演方向专业统考合格考生投档成绩分.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/4.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_05_4_表_导_演类_服装表演方向专业统考合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/5.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_06_5_播音与主持类专业统考合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/6.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_07_6_音乐类_音乐教育类_专业统考合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/7.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_08_7_音乐类_音乐表演类_声乐方向_专业统考合格考生投档成绩分.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/8.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_09_8_音乐类_音乐表演类_器乐方向_专业统考合格考生投档成绩分.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/9.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_10_9_书法类专业统考合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/10.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_11_10_舞蹈类专业统考合格考生投档成绩分布表.pdf"
+        },
+        {
+          "url": "https://www.shmeea.edu.cn/download/20260623/2/11.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\上海\\上海_12_11_体育类专业统考合格考生投档成绩分布表.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260624/2293844300.html",
+          "title": "上海：2026年普通高校招生本科阶段考生各类别成绩分布表",
+          "html": "data\\score_rank\\2026\\上海\\pages\\上海_2026年普通高校招生本科阶段考生各类别成绩分布表.html"
+        }
+      ]
+    },
+    {
+      "province": "安徽",
+      "title": "安徽省2026年普通高等学校招生统一考试考生成绩分档表（含加分）",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847718.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847725-2293847718-8fb30f6f3af9ca21393463bb15f64b3b.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_01_点击下载_安徽省2026年普通高等学校招生统一考试考生成绩分.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/img/2293847719.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_01_图片.png"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847720.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_02_图片.png"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847721.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_03_图片.png"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847722.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_04_图片.png"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847723.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_05_图片.png"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847724.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\安徽\\安徽_06_图片.png"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847718.html",
+          "title": "安徽省2026年普通高等学校招生统一考试考生成绩分档表（含加分）",
+          "html": "data\\score_rank\\2026\\安徽\\pages\\安徽省2026年普通高等学校招生统一考试考生成绩分档表_含加分.html"
+        }
+      ]
+    },
+    {
+      "province": "福建",
+      "title": "福建：2026年高考考生成绩分布（历史科目组）",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847635.html",
+      "status": "image_only",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/img/2293847636.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_01_图片.jpg"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/img/2293847637.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_02_图片.jpg"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/img/2293847638.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_03_图片.jpg"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847639.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_04_图片.jpg"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847635.html",
+          "title": "福建：2026年高考考生成绩分布（历史科目组）",
+          "html": "data\\score_rank\\2026\\福建\\pages\\福建_2026年高考考生成绩分布_历史科目组.html"
+        }
+      ]
+    },
+    {
+      "province": "福建",
+      "title": "福建：2026年高考考生成绩分布（物理科目组）",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847630.html",
+      "status": "image_only",
+      "files": [
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847631.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_01_图片.jpg"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847632.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_02_图片.jpg"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847633.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_03_图片.jpg"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847634.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\福建\\福建_04_图片.jpg"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847630.html",
+          "title": "福建：2026年高考考生成绩分布（物理科目组）",
+          "html": "data\\score_rank\\2026\\福建\\pages\\福建_2026年高考考生成绩分布_物理科目组.html"
+        }
+      ]
+    },
+    {
+      "province": "江西",
+      "title": "江西省2026年普通高考一分一段表公布",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847814.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847815-2293847814-c34590caa1e4b406d2103b14461b3b60.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\江西\\江西_01_点击下载_江西省2026年三校生一分一段表.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847817-2293847814-9e87204afcbde136423b2114cbcb8748.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\江西\\江西_02_点击下载_江西省2026年普通高考历史类一分一段表.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847816-2293847814-b6eb0b66de59ea59b62d7e9268e13be5.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\江西\\江西_03_点击下载_江西省2026年普通高考物理类一分一段表.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847814.html",
+          "title": "江西省2026年普通高考一分一段表公布",
+          "html": "data\\score_rank\\2026\\江西\\pages\\江西省2026年普通高考一分一段表公布.html"
+        }
+      ]
+    },
+    {
+      "province": "山东",
+      "title": "山东：2026年夏季高考文化成绩一分一段表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847728.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847729-2293847728-12bb90a018a6accca9b2531236bd0191.xls",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\山东\\山东_01_点击下载_2026年夏季高考文化成绩一分一段表.xls"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847728.html",
+          "title": "山东：2026年夏季高考文化成绩一分一段表",
+          "html": "data\\score_rank\\2026\\山东\\pages\\山东_2026年夏季高考文化成绩一分一段表.html"
+        }
+      ]
+    },
+    {
+      "province": "山东",
+      "title": "山东：2026年春季高考成绩一分一段表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847726.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847727-2293847726-571d989e5064912dc69600d049039fde.xls",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\山东\\山东_01_点击下载_2026年春季高考成绩一分一段表.xls"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847726.html",
+          "title": "山东：2026年春季高考成绩一分一段表",
+          "html": "data\\score_rank\\2026\\山东\\pages\\山东_2026年春季高考成绩一分一段表.html"
+        }
+      ]
+    },
+    {
+      "province": "湖北",
+      "title": "湖北省2026年普通高考总分一分一段统计表—普通类",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847748.html",
+      "status": "image_only",
+      "files": [
+        {
+          "url": "https://t2.chei.com.cn/news/img/2293847750.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_01_图片.jpg"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/img/2293847751.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_02_图片.jpg"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847752.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_03_图片.jpg"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847753.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_04_图片.jpg"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847754.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_05_图片.jpg"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/img/2293847755.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_06_图片.jpg"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/img/2293847756.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_07_图片.jpg"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/img/2293847757.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_08_图片.jpg"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/img/2293847758.jpg",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\湖北\\湖北_09_图片.jpg"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847748.html",
+          "title": "湖北省2026年普通高考总分一分一段统计表—普通类",
+          "html": "data\\score_rank\\2026\\湖北\\pages\\湖北省2026年普通高考总分一分一段统计表_普通类.html"
+        }
+      ]
+    },
+    {
+      "province": "广西",
+      "title": "广西：2026年一分一档表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847693.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847693.html",
+          "title": "广西：2026年一分一档表",
+          "html": "data\\score_rank\\2026\\广西\\pages\\广西_2026年一分一档表.html"
+        }
+      ]
+    },
+    {
+      "province": "海南",
+      "title": "海南省2026年普通高考考生成绩分布表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202607/20260701/2293870259.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293870364-2293870259-88d254657fb1c6a13521355aeb95b354.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_01_点击下载_2026年海南省普通高考普通类符合高校专项计划报名.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293870260-2293870259-e90d3230a81f15767e6d961f6271460f.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_02_点击下载_2026年海南省普通高考普通类考生成绩分布表.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293870272-2293870259-85ddfd2553945d6f0d1aef91c6e4d25d.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_03_点击下载_2026年海南省普通高考普通类符合国家专项计划报名.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293870274-2293870259-ade6039d5e0f7dbf26bf1c5e64806ac6.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_04_点击下载_2026年海南省普通高考体育专业成绩75分_含_以.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293870271-2293870259-a5707047603fd593e3b0abbc98d40560.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_05_点击下载_美术与设计类综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293870270-2293870259-380a5a16e9656a28a23312f79bcccd55.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_06_点击下载_舞蹈学类综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293870269-2293870259-181eec672c787ff190bb8d3c14a7fee8.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_07_点击下载_播音与主持类综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293870268-2293870259-22646b0b45fb5a48ed60f32a511ccbbc.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_08_点击下载_书法类综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293870267-2293870259-8280ab273c1f4702145c2c6d2df8d2ac.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_09_点击下载_音乐类音乐教育方向综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293870265-2293870259-c863d9e7edc9cdedda591652129cfea1.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_10_点击下载_音乐类音乐表演器乐方向_含兼报考生成绩_综合成绩分.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293870264-2293870259-410c8d30bc3f57cfcd3fd880e8db4ad5.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_11_点击下载_表_导_演类戏剧影视表演方向_含兼报考生成绩_综合.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293870263-2293870259-d8bae6fa8cc883f97977230cf28b0add.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_12_点击下载_表_导_演类戏剧影视导演方向_含兼报考生成绩_综合.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293870262-2293870259-1f2de387ef4fba341ac184be1ea12734.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_13_点击下载_表_导_演类服装表演方向综合成绩分布表.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293870266-2293870259-ecaa8568f0560c161bef36c15b2aec1a.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\海南\\海南_14_点击下载_音乐类音乐表演声乐方向_含兼报考生成绩_综合成绩分.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202607/20260701/2293870259.html",
+          "title": "海南省2026年普通高考考生成绩分布表",
+          "html": "data\\score_rank\\2026\\海南\\pages\\海南省2026年普通高考考生成绩分布表.html"
+        }
+      ]
+    },
+    {
+      "province": "四川",
+      "title": "四川：2026年普通高考物理类成绩分段统计表出炉",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847874.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847874.html",
+          "title": "四川：2026年普通高考物理类成绩分段统计表出炉",
+          "html": "data\\score_rank\\2026\\四川\\pages\\四川_2026年普通高考物理类成绩分段统计表出炉.html"
+        }
+      ]
+    },
+    {
+      "province": "四川",
+      "title": "四川：2026年普通高考历史类成绩分段统计表出炉",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847873.html",
+      "status": "no_file",
+      "files": [],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847873.html",
+          "title": "四川：2026年普通高考历史类成绩分段统计表出炉",
+          "html": "data\\score_rank\\2026\\四川\\pages\\四川_2026年普通高考历史类成绩分段统计表出炉.html"
+        }
+      ]
+    },
+    {
+      "province": "云南",
+      "title": "云南：2026年高考成绩分数段统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/ss/202606/20260626/2293847808.html",
+      "status": "image_only",
+      "files": [
+        {
+          "url": "https://t2.chei.com.cn/news/img/2293847809.png",
+          "kind": "image",
+          "path": "data\\score_rank\\2026\\云南\\云南_01_图片.png"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/ss/202606/20260626/2293847808.html",
+          "title": "云南：2026年高考成绩分数段统计表",
+          "html": "data\\score_rank\\2026\\云南\\pages\\云南_2026年高考成绩分数段统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "陕西",
+      "title": "陕西：2026年普通高考一分段统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847835.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847836-2293847835-476ced203f20c899cd9f6367a2252770.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\陕西\\陕西_01_点击下载_2026年陕西省普通高考一分段统计表_普通物理_艺.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847837-2293847835-41a666489de1a0dfc22dfc4cfca9eb87.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\陕西\\陕西_02_点击下载_2026年陕西省普通高考一分段统计表_普通历史_艺.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847839-2293847835-af6db6be39e543ef3331f7a049a34032.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\陕西\\陕西_03_点击下载_2026年陕西省普通高考体育类_历史_专业考试一分.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847838-2293847835-3c5304f82ab1f2a359611f29301b81ec.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\陕西\\陕西_04_点击下载_2026年陕西省普通高考体育类_物理_专业考试一分.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260626/2293847835.html",
+          "title": "陕西：2026年普通高考一分段统计表",
+          "html": "data\\score_rank\\2026\\陕西\\pages\\陕西_2026年普通高考一分段统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "青海",
+      "title": "青海：2026年普通高校招生考试排序成绩一分一段统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847238.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847239-2293847238-8f4911ad66a2a5465806d4e60d7dd2d9.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_01_点击下载_1_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847240-2293847238-f8b9e6d493bc52949e434e7a9cb1c759.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_02_点击下载_2_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847241-2293847238-fa631cfa940c7bb4e2077f33b2dba48e.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_03_点击下载_3_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847242-2293847238-582d83e0583f0b64d069c193a1deb68e.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_04_点击下载_4_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847243-2293847238-8e90a3a05decb74b2da237fc1528c6bb.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_05_点击下载_5_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847244-2293847238-1502b4e43cc90724f86d542451a724f4.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_06_点击下载_6_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847245-2293847238-07c432099ca3f325893f2ae84199cbf0.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_07_点击下载_7_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847246-2293847238-f6c20e3f17a3549a0fb61ee78b571001.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\青海\\青海_08_点击下载_8_2026年青海省普通高校招生考试排序成绩一分一.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847238.html",
+          "title": "青海：2026年普通高校招生考试排序成绩一分一段统计表",
+          "html": "data\\score_rank\\2026\\青海\\pages\\青海_2026年普通高校招生考试排序成绩一分一段统计表.html"
+        }
+      ]
+    },
+    {
+      "province": "宁夏",
+      "title": "宁夏：2026年普通高考考生一分段统计表",
+      "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847211.html",
+      "status": "ok",
+      "files": [
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847237-2293847211-6e97879425ea63e133cf22df41989fef.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_01_点击下载_1_2026年普通高考考生成绩一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847236-2293847211-cfba6e5fc57b5d9f67885f0b8626fe9a.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_02_点击下载_2_2026年普通高考考生成绩一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847235-2293847211-b3c43399c1c9caee8c77f5272adddd34.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_03_点击下载_3_2026年普通高考体育综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847234-2293847211-d4b84dc08e349bcbc8cd8a76d5cc4e04.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_04_点击下载_4_2026年普通高考体育综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847233-2293847211-edea52e152f722689d8f60845333aded.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_05_点击下载_5_2026年普通高考艺术综合分一分段表_历史组_.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847232-2293847211-04380f62fff243253eb2740a126d7e70.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_06_点击下载_6_2026年普通高考艺术综合分一分段表_历史组_.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847231-2293847211-37b5caef5b1ef67c4088f88e6430fe80.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_07_点击下载_7_2026年普通高考艺术综合分一分段表_历史组_.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847230-2293847211-a6c2e76cf477381c0667ce7cf510446d.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_08_点击下载_8_2026年普通高考艺术综合分一分段表_历史组_.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847229-2293847211-16f9d7039b4d2f170a3f553f7a5750f3.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_09_点击下载_9_2026年普通高考艺术综合分一分段表_历史组_.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847228-2293847211-2747181aabe28e67071659bb4606a9c8.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_10_点击下载_10_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847227-2293847211-3bba6b696db8e4aa06507c0517517a00.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_11_点击下载_11_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847226-2293847211-0c124b9c949facfa39988a8f9ac62189.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_12_点击下载_12_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847225-2293847211-688ada2a5d6ae3c89e4e4dc48071bde5.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_13_点击下载_13_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847224-2293847211-8aacb06e949cced9e2352b324d481bdf.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_14_点击下载_14_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847223-2293847211-3b7b900d5697b4e362f013e60c7187a8.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_15_点击下载_15_2026年普通高考艺术综合分一分段表_历史组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847222-2293847211-97ab4d7061620eee1aa275d2de8ef273.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_16_点击下载_16_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847221-2293847211-37d4a6563c196698911f1d785d129b23.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_17_点击下载_17_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847220-2293847211-318e061c1f6097dff6ba199c69771cb8.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_18_点击下载_18_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847219-2293847211-3598c1ddad3f6e61519e593ba53ff6cc.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_19_点击下载_19_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t1.chei.com.cn/news/getfile/2293847218-2293847211-ad81ad582403ccf4fc9907badac6f93d.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_20_点击下载_20_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847217-2293847211-085e8d726bbdb3e838bfe40c72419220.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_21_点击下载_21_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847216-2293847211-fc333dc10ed543f65094487b9eddcdba.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_22_点击下载_22_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t4.chei.com.cn/news/getfile/2293847215-2293847211-041f91b304a44a335e316f29b524a650.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_23_点击下载_23_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847214-2293847211-2e986b4c1ef655b2d755df6c789d863b.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_24_点击下载_24_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t2.chei.com.cn/news/getfile/2293847213-2293847211-1ba47e3f361fcc782a60876a972c78bd.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_25_点击下载_25_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        },
+        {
+          "url": "https://t3.chei.com.cn/news/getfile/2293847212-2293847211-539f3b2210b289187383a3414054a371.pdf",
+          "kind": "attachment",
+          "path": "data\\score_rank\\2026\\宁夏\\宁夏_26_点击下载_26_2026年普通高考艺术综合分一分段表_物理组.pdf"
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202606/20260625/2293847211.html",
+          "title": "宁夏：2026年普通高考考生一分段统计表",
+          "html": "data\\score_rank\\2026\\宁夏\\pages\\宁夏_2026年普通高考考生一分段统计表.html"
+        }
+      ]
+    }
+  ],
+  "missing_provinces": [
+    "内蒙古",
+    "江苏",
+    "浙江",
+    "河南",
+    "湖南",
+    "广东",
+    "重庆",
+    "贵州",
+    "西藏",
+    "甘肃",
+    "新疆"
+  ],
+  "summary": {
+    "entries": 23,
+    "provinces": 20,
+    "files": 102,
+    "image_only": 4,
+    "no_file": 7
+  }
+}

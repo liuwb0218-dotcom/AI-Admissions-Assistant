@@ -358,3 +358,77 @@ def test_unknown_rank_reply_uses_segment_table():
 
     assert "位次约 21000" in result["answer"]
     assert "一分一段表估算" in result["answer"]
+
+
+def test_profile_ready_question_matches_without_inline_score():
+    # “有多少合适我的专业”没写分数，也要直接按资料匹配，且不再追问位次 / 调剂
+    db, user = _score_session()
+    profile = db.query(StudentProfile).filter(StudentProfile.user_id == user.id).first()
+    profile.score = 610
+    db.commit()
+
+    result = build_score_answer(db, user, "有多少合适我的专业")
+
+    assert result is not None
+    answer = result["answer"]
+    assert result["intent"] == "score"
+    assert "河南 · 物理类" in answer
+    assert "1 个可报专业" in answer
+    assert "环境科学与工程类" in answer
+    assert "你的位次是多少" not in answer
+    # 不追问调剂，只在末尾提示
+    assert "回复“接受”或“不接受”" not in answer
+
+
+def test_recommendation_excludes_majors_without_plan():
+    # 只推今年招生计划里的专业；计划内但无录取分的不计入数量
+    db, user = _score_session()
+    profile = db.query(StudentProfile).filter(StudentProfile.user_id == user.id).first()
+    profile.score = 610
+    db.commit()
+
+    no_plan = Major(name="心理学", display_name="心理学")
+    plan_only = Major(name="教育学类", display_name="教育学类")
+    db.add_all([no_plan, plan_only])
+    db.flush()
+    db.add_all(
+        [
+            AdmissionScore(
+                year=2026,
+                province="河南",
+                major_type="物理类",
+                plan_type="一般计划",
+                major_id=no_plan.id,
+                min_score=580,
+                min_rank=40000,
+            ),
+            EnrollmentPlan(
+                year=2026,
+                province="河南",
+                major_type="物理类",
+                plan_type="一般计划（普通类）",
+                major_id=plan_only.id,
+            ),
+        ]
+    )
+    db.commit()
+
+    answer = build_score_answer(db, user, "有多少合适我的专业")["answer"]
+
+    assert "1 个可报专业" in answer
+    assert "心理学" not in answer
+    assert "另有 1 个专业暂无往年录取分数" in answer
+
+
+def test_major_match_question_asks_province_without_profile():
+    engine = create_engine("sqlite://")
+    Base.metadata.create_all(engine)
+    db = sessionmaker(bind=engine)()
+    user = User(username="fresh", password_hash="x")
+    db.add(user)
+    db.commit()
+
+    result = build_score_answer(db, user, "有多少合适我的专业")
+
+    assert result is not None
+    assert "哪个省份" in result["answer"]
